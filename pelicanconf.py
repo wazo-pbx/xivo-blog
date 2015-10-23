@@ -28,7 +28,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 ARTICLE_PATHS = ['articles']
-STATIC_PATHS = ['public']
+STATIC_PATHS = ['public', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 
 MAIN_MENU = True
 
