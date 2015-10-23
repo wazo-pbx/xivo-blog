@@ -4,7 +4,7 @@ Author: gsanderson
 Category: XiVO IPBX
 Tags: XiVO, development
 Slug: sprint-review-1517
-Status: draft
+Status: published
 
 Greetings fellow XiVOists ! I am pleased to announce that version 15.17 of XiVO has been released.
 
