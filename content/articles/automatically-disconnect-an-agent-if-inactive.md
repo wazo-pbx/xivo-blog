@@ -48,8 +48,8 @@ Let us simulate the anomaly. For this simulation, the softphone has been forcefu
 **We can see that our agent is still logged in and no other information about the disconnection is
 displayed**
 
-Agent's point of view
----------------------------
+Point of view on the XiVO Server
+--------------------------------
 
 ![photo 4]({filename}/public/agent_disconnect/photo4.png)
 
