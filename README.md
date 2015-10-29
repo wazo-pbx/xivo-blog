@@ -45,7 +45,12 @@ Then open a browser at http://localhost:5000
 Publishing 
 ==========
 
-Publishing is done via github pages. Once the blog is ready, run the following command:
+Publishing is done via github pages. The first time you clone the repository, run this command
+to setup branches needed for publishing:
+
+    make github_setup
+
+Once you are ready to publish your articles, run the following command:
 
     make github
 
