@@ -1,5 +1,5 @@
 Title: Automatically Disconnect an Agent if his SIP Account is Inactive
-Date: 2015-10-16 12:00
+Date: 2015-10-29 09:00
 Category: XiVO IPBX
 Tags: call center
 Slug: automatically-disconnect-an-agent-if-inactive
