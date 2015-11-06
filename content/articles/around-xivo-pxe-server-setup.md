@@ -2,6 +2,7 @@ Title: Around XiVO - pxe server setup
 Date: 2012-03-01 20:07
 Author: atarakt
 Category: Software
+Tags: PXE
 Slug: around-xivo-pxe-server-setup
 Status: published
 

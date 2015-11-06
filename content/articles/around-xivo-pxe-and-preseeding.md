@@ -1,6 +1,7 @@
 Title: Around XiVO - pxe and preseeding
 Date: 2012-05-30 19:47
 Author: atarakt
+Tags: PXE
 Slug: around-xivo-pxe-and-preseeding
 Status: published
 

@@ -2,6 +2,7 @@ Title: Around  XiVO - describe industrial installation process
 Date: 2012-01-06 18:19
 Author: atarakt
 Category: General
+Tags: PXE
 Slug: around-xivo-describe-industrial-installation-process
 Status: published
 
