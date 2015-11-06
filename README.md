@@ -40,7 +40,7 @@ To preview what the blog will look like, run the following command :
 
     make html serve
 
-Then open a browser at http://localhost:5000
+Then open a browser at http://localhost:8000
 
 Publishing 
 ==========

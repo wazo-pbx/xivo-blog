@@ -125,7 +125,7 @@ github: publish
 
 github_setup:
 	git remote add blog $(GITHUB_BLOG_REPO)
-	git fetch $(GITHUB_BLOG_REPO)
+	git fetch blog
 	git branch gh-pages blog/master
 
 .PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github github_setup
