@@ -46,6 +46,15 @@ XiVO can sustain.
 voicemails. The goal is to make configuration of advanced parameters easier while
 still keeping the interface simple.
 
+**CTI:** We are also working on making XiVO Client statuses to be visible across
+multiple XiVO servers. This means that we can see whether a user is on the phone
+or available, even if he is registered on another XiVO server.
+
+**Caller ID:** Finally, we are changing the system of incoming caller ID lookup,
+so that it includes your personal contacts. This means that, when one of your
+personal contacts calls you, instead of seeing only her number, you will see her
+name (that you entered) along with her number.
+
 Technical features
 ------------------
 
