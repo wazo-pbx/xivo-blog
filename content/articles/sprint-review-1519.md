@@ -13,14 +13,14 @@ the month of January in 2016.
 New features in this sprint
 ---------------------------
 
-**AGI**: Unconditional forwards on a phone can be updated through a single operation. When you wish
+**Call Forwards**: Unconditional forwards on a phone can be updated through a single operation. When you wish
 to update the phone number on a forward, simply dial ```*21<new_number>``` and the forward will be
 automatically updated.
 
 **REST API:** A new API for importing users en masse has been added. A CSV file can be used for
 importing users, lines, extensions, cti profiles, incalls, and voicemails in a single operation. The
 goal of this API is to accelerate the installation and configuration of a server when deploying one
-or more XiVOs. 
+or more XiVOs.
 
 **REST API:** The search system on confd APIs has been improved. You can now filter results using
 exact matches on any field for a given resource. For example : If you have two users named "John
@@ -31,10 +31,10 @@ improvements allow API users to search and filter results more precisely.
 for implementing custom services related to calling services, such as automatically dialing
 a client's phone number, or call reminders at a specific time.
 
-**XiVO Client**: The new social xlet now has buttons for transfering calls to voicemails, sending
+**XiVO Client**: The new People xlet now has buttons for transfering calls to voicemails, sending
 emails, and chatting with other users. This means that it is now feature complete and can be used as
-a replacement for the old people xlet.  The XiVO dev team is very proud to have completed this major
-milestone ! The old people xlet has now been removed from the client.
+a replacement for the old Contacts xlet. The XiVO dev team is very proud to have completed this major
+milestone ! The old Contacts xlet has now been removed from the client.
 
 **Caller ID:** The caller ID lookup service has been improved. Lookups now include searches in your
 personal contacts. This means that when one of your personal contacts calls you, instead of seeing
@@ -51,8 +51,8 @@ have been released and can be consulted on the [security advisory page](http://m
 Ongoing features
 ----------------
 
-**OS Upgrade:** We will be upgrading the debian version, on which XiVO is based, from
-wheezy to jessie. This will upgrade many libraires and programs running on 
+**OS Upgrade:** We will be upgrading the version of Debian GNU/Linux, on which XiVO is based, from
+Wheezy to Jessie. This will upgrade many libraires and programs running on
 a server to newer versions.
 
 **User import:** We will be adding more features to the user import API in order
@@ -61,6 +61,9 @@ to update information that has already been imported.
 **Lines:** We are revamping the web interface in a similar fashion to what was done for
 voicemails. The goal is to make configuration of advanced parameters easier while
 still keeping the interface simple.
+
+**Switchboard:** We are changing the internals of the Switchboard feature so that
+we can control more precisely how calls are answered, transferred, etc.
 
 
 Technical features
