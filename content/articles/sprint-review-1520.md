@@ -62,6 +62,6 @@ freedom of XiVO bless your communications across the vast VoIP expanse.*
 
 Sources:
 
-* [XiVO 15.20 Upgrade notes](http://http://documentation.xivo.io/en/stable/upgrade/upgrade.html#id2)
+* [XiVO 15.20 Upgrade notes](http://documentation.xivo.io/en/stable/upgrade/upgrade.html#id2)
 * [XiVO 15.20 Roadmap](http://projects.xivo.io/versions/236)
 * [REST API Changelog](http://documentation.xivo.io/en/stable/api_sdk/rest_api/confd/changelog.html)
