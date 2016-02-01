@@ -12,7 +12,7 @@ New features in this sprint
 ---------------------------
 
 **REST API:** A new API for managing "custom" endpoints has been added. Custom endpoints enable the use of communication
-protocols that are supported by asterisk but not fully managed by XiVO, such as DAHDI cards. This new API represents an
+protocols that are supported by Asterisk but not fully managed by XiVO, such as DAHDI cards. This new API represents an
 additional step towards our long-term goal of offering a PBX system that is more flexible, customizable and useful for
 third party developers.
 
@@ -27,7 +27,7 @@ configuration on the server. Futher details can be obtained in the upgrade notes
 
 **SIP:** A new tab has been added to the page for configuring advanced options in SIP accounts. Advanced options can be
 added via the "advanced" tab on the lines page. These parameters will be included along side the rest of the SIP
-configuration in asterisk. The advanced tab offers more flexibility to advanced users of asterisk, while still keepin
+configuration in Asterisk. The advanced tab offers more flexibility to advanced users of Asterisk, while still keepin
 the rest of the UI simple enough for regular users.
 
 **Web Interface:** A few minor improvements have been added to the web interface's UI:
