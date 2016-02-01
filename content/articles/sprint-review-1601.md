@@ -16,9 +16,9 @@ makes it easier for administrators to reuse services that manage their user acco
 authentication is managed by a new authentication backend configurable via the CTI. This backend requires manual
 configuration on the server. Further details can be obtained in the upgrade notes.
 
-**XiVO Client Connections**: The XiVO client will issue a warning when it is unable to connect to the server using an encrypted
-connection. Users will have the option of reconnecting to the server using an unencrypted connection. Encrypted
-connections can be reactivated by clicking on the lock in the client's configuration window.
+**XiVO Client Connections**: The XiVO client will issue a warning when it is unable to connect to the server using an
+encrypted connection. Users will have the option of reconnecting to the server using an unencrypted connection.
+Encrypted connections can be reactivated by clicking on the lock in the client's configuration window.
 
 **SIP:** A new tab has been added to the page for configuring advanced options in SIP accounts. Advanced options can be
 added via the "advanced" tab on the lines page. These parameters will be included along side the rest of the SIP
@@ -50,8 +50,8 @@ Technical Features
 **Web account ACLs**: The permission system used for web service accounts has been replaced by Access Control Lists
 (ACL). ACLs are a part of our ongoing work on our new permission system. This system improves security in XiVO for
 various subsystems, such as communication between services. In the long term, ACLs will also permit users to access
-parts of in a restricted mode, giving them the possibility of customizing different features without
-impacting other parts of the system.
+parts of in a restricted mode, giving them the possibility of customizing different features without impacting other
+parts of the system.
 
 **CTI protocol version**: The CTI protocol has been upgraded to 2.0. XiVO Clients will issue a warning when connecting
 to a server that uses a version of the protocol that is incompatible with the current version of the client.
@@ -67,9 +67,9 @@ calls are answered, transferred, etc.
 
 ---
 
-*My fellow xivoists, as the **Lord of XiVO** allow me to bid you a happy and invigorating farewell. I
-wish you shall remain in high spirits until our next fateful encounter, 3 weeks from now. May the
-freedom of XiVO bless your communications across the vast VoIP expanse.*
+*My fellow xivoists, as the **Lord of XiVO** allow me to bid you a happy and invigorating farewell. I wish you shall
+remain in high spirits until our next fateful encounter, 3 weeks from now. May the freedom of XiVO bless your
+communications across the vast VoIP expanse.*
 
 Sources:
 
