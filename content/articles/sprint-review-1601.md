@@ -11,19 +11,14 @@ Greetings fellow XiVO fans, I am pleased to announce the release of XiVO 16.01.
 New features in this sprint
 ---------------------------
 
-**REST API:** A new API for managing "custom" endpoints has been added. Custom endpoints enable the use of communication
-protocols that are supported by Asterisk but not fully managed by XiVO, such as DAHDI cards. This new API represents an
-additional step towards our long-term goal of offering a PBX system that is more flexible, customizable and useful for
-third party developers.
-
-**XiVO Client Connections**: The XiVO client will issue a warning when it is unable to connect to the server using an encrypted
-connection. Users will have the option of reconnecting to the server using an unencrypted connection. Encrypted
-connections can be reactivated by clicking on the lock in the client's configuration window.
-
 **XiVO Client Authentication**: The XiVO client can use LDAP authentication for connecting to the XiVO server. This
 makes it easier for administrators to reuse services that manage their user accounts, such as Active Directory. LDAP
 authentication is managed by a new authentication backend configurable via the CTI. This backend requires manual
 configuration on the server. Further details can be obtained in the upgrade notes.
+
+**XiVO Client Connections**: The XiVO client will issue a warning when it is unable to connect to the server using an encrypted
+connection. Users will have the option of reconnecting to the server using an unencrypted connection. Encrypted
+connections can be reactivated by clicking on the lock in the client's configuration window.
 
 **SIP:** A new tab has been added to the page for configuring advanced options in SIP accounts. Advanced options can be
 added via the "advanced" tab on the lines page. These parameters will be included along side the rest of the SIP
@@ -36,6 +31,10 @@ the rest of the UI simple enough for regular users.
  * The user's extension will now be displayed next to his name in multiselect boxes
  * The line associated to a device can be edit by clicking on its number in the device list
 
+**REST API:** A new API for managing "custom" endpoints has been added. Custom endpoints enable the use of communication
+protocols that are supported by Asterisk but not fully managed by XiVO, such as DAHDI cards. This new API represents an
+additional step towards our long-term goal of offering a PBX system that is more flexible, customizable and useful for
+third party developers.
 
 Technical Features
 ------------------
