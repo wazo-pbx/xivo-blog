@@ -50,7 +50,7 @@ Technical Features
 **Web account ACLs**: The permission system used for web service accounts has been replaced by Access Control Lists
 (ACL). ACLs are a part of our ongoing work on our new permission system. This system improves security in XiVO for
 various subsystems, such as communication between services. In the long term, ACLs will also permit users to access
-various xivo subsystems in a restricted mode, giving them the possibility of customizing different features without
+parts of in a restricted mode, giving them the possibility of customizing different features without
 impacting other parts of the system.
 
 **CTI protocol version**: The CTI protocol has been upgraded to 2.0. XiVO Clients will issue a warning when connecting
