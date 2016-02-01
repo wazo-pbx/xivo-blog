@@ -23,11 +23,11 @@ connections can be reactivated by clicking on the lock in the client's configura
 **XiVO Client Authentication**: The XiVO client can use LDAP authentication for connecting to the XiVO server. This
 makes it easier for administrators to reuse services that manage their user accounts, such as Active Directory. LDAP
 authentication is managed by a new authentication backend configurable via the CTI. This backend requires manual
-configuration on the server. Futher details can be obtained in the upgrade notes.
+configuration on the server. Further details can be obtained in the upgrade notes.
 
 **SIP:** A new tab has been added to the page for configuring advanced options in SIP accounts. Advanced options can be
 added via the "advanced" tab on the lines page. These parameters will be included along side the rest of the SIP
-configuration in Asterisk. The advanced tab offers more flexibility to advanced users of Asterisk, while still keepin
+configuration in Asterisk. The advanced tab offers more flexibility to advanced users of Asterisk, while still keeping
 the rest of the UI simple enough for regular users.
 
 **Web Interface:** A few minor improvements have been added to the web interface's UI:
