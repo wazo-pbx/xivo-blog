@@ -46,7 +46,7 @@ Technical Features
 
 **Consul upgrade:** Consul has been upgraded to version 0.6.3
 
-**Asterisk upgrade:** Asterisk has been upgraded to version 13.7
+**Asterisk upgrade:** Asterisk has been upgraded to version 13.7.0
 
 **Web account ACLs**: The permission system used for web service accounts has been replaced by Access Control Lists
 (ACL). ACLs are a part of our ongoing work on our new permission system. This system improves security in XiVO for
