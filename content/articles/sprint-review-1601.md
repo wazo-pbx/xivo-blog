@@ -17,7 +17,7 @@ additional step towards our long-term goal of offering a PBX system that is more
 third party developers.
 
 **XiVO Client Connections**: The XiVO client will issue a warning when it is unable to connect to the server using an encrypted
-connection. Users will have the option of reconnecting to the server using a standard connection. Encrypted
+connection. Users will have the option of reconnecting to the server using an unencrypted connection. Encrypted
 connections can be reactivated by clicking on the lock in the client's configuration window.
 
 **XiVO Client Authentication**: The XiVO client can use LDAP authentication for connecting to the XiVO server. This
