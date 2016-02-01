@@ -6,7 +6,7 @@ Tags: XiVO, development
 Slug: sprint-review-1601
 Status: published
 
-Greetings fellow XiVO fans, I am pleased to announce the release of XiVO 16.01. 
+Greetings fellow XiVO fans, I am pleased to announce the release of XiVO 16.01.
 
 New features in this sprint
 ---------------------------
@@ -29,7 +29,7 @@ the rest of the UI simple enough for regular users.
 
  * A search bar has been added to the context page
  * The user's extension will now be displayed next to his name in multiselect boxes
- * The line associated to a device can be edit by clicking on its number in the device list
+ * The line associated to a device can be edited by clicking on its number in the device list
 
 **REST API:** A new API for managing "custom" endpoints has been added. Custom endpoints enable the use of communication
 protocols that are supported by Asterisk but not fully managed by XiVO, such as DAHDI cards. This new API represents an
@@ -55,6 +55,7 @@ impacting other parts of the system.
 
 **CTI protocol version**: The CTI protocol has been upgraded to 2.0. XiVO Clients will issue a warning when connecting
 to a server that uses a version of the protocol that is incompatible with the current version of the client.
+
 
 Ongoing features
 ----------------
