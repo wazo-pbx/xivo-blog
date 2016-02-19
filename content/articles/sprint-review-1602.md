@@ -25,14 +25,13 @@ Technical Features
 Ongoing features
 ----------------
 
-**Security**: we are extending the permission system to all REST APIs. This will allow a finer grained access to the REST APIs and reduce the chances of accidentally breaking the rest of the system. For example, users will be able to modify their function keys, without having access to the function keys of other users.
+**Security**: We are extending the permission system to all REST APIs. This will allow a finer grained access to the REST APIs and reduce the chances of accidentally breaking the rest of the system. For example, users will be able to modify their function keys, without having access to the function keys of other users.
 
 **REST API**: We are working on a new REST API for associating devices with SIP or SCCP accounts.
 
 **Web applications**: We are working towards making Web applications connected to XiVO possible. The two things it needs is REST APIs, which are growing more useful, and events, which will be provided via Websockets, introduced in this sprint. A good example of a Web application is a switchboard application, where the operator may answer, hold and transfer calls from his browser, effectively controlling his physical phone. This may also be coupled with a WebRTC softphone, in order to have a full Web switchboard environment.
 
-**Switchboard:** We are changing the internals of the Switchboard feature so that we can control more precisely how
-calls are answered, transferred, etc.
+**Switchboard**: We are changing the internals of the Switchboard feature so that we can control more precisely how calls are answered, transferred, etc.
 
 ---
 
