@@ -28,7 +28,8 @@ themselves. These connections will only receive events that they are authorized 
 
 **Service discovery**: xivo-dird and xivo-agentd now register their services via consul.
 
-**LDAP authentication**: A few minor improvements have been made to the LDAP authentication mechanisms:
+**LDAP authentication**: After discussions with members of the community, the LDAP plugin has been rewritten in order to
+adapt more easily to the needs of our users. We have also added these new features:
 
 * The plugin can optionally be configured to find a user via an LDAP search
 * The attributes used for matching a user's username and email are configurable
@@ -43,7 +44,8 @@ can be consulted on the [security advisory page](http://mirror.xivo.io/security)
 Ongoing features
 ----------------
 
-**Security**: We are extending the permission system to all REST APIs. This allows a finer grained access to the REST APIs and reduces the chances of accidentally breaking the rest of the system. For example, users will be able to modify their function keys, without having access to the function keys of other users.
+**REST API**: We are working on new APIs for managing a users's call services and call forwards. This will offer third
+parties more flexibility when developing applications that manage a user's services.
 
 **Web applications**: Work on tools for connecting web applications to XiVO is ongoing. A good example of a Web application is a switchboard application, where the operator may answer, hold and transfer calls from his browser, effectively controlling his physical phone. This may also be coupled with a WebRTC softphone, in order to have a full Web switchboard environment.
 
