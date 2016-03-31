@@ -11,22 +11,21 @@ Greetings fellow XiVO fans, it is my pleasure to announce the release of XiVO 16
 New features in this sprint
 ---------------------------
 
-**Fax**: The Fax system in XiVO has been improved. Fax files can be converted to PDF on reception. Files can also be
-deposited on a FTP server. Further details on how to configure these features can be found
+**Fax**: The Fax system in XiVO has been improved, thanks to the XiVO community (thank you Julien Revert). Fax files can be
+converted to PDF on reception. Files can also be deposited on a FTP server. Further details on how to configure these
+features can be found
 [in the documentation](http://documentation.xivo.io/en/stable/administration/fax/fax.html#using-the-ftp-backend)
 
-**Forwards**: All call forwards configured on a phone will activate their BLFs when enabled. A BLF (Busy Lamp Field)
-is a small light found next to the function key on a phone. The light helps indicate to the user if any call forwards
-are currently active.
+**Forwards**: The behaviour of the call forwards BLFs is completely consistent across the unconditional, busy and no-answer
+forwards. A BLF (Busy Lamp Field) is a small light found next to the function key on a phone. The light helps indicate
+to the user if any call forwards are currently active.
 
-**Xivo Client**: The XiVO Client has received small mouse improvements: A double-click on the call button in the people
-xlet will call the user's main phone number, where as a right click allows copying the number to the clipboard.
+**XiVO Client**: The Xlet People has received small mouse improvements: it is now possible to copy contact informations
+  to the clipboard, such as the phone number or email via a right click.
 
-**REST API**: New APIs for managing forwards and services has been integrated to the user resource. All call forwards
-can now be fully controlled through the REST API. A new API for managing call permissions has also been added. Call
-permissions enable administrators to control which phone numbers are allowed to be called by users. These new APIs
-represent an additional step towards our long-term goal of offering a PBX system that is more flexible, customizable and
-useful for third party developers.
+**REST API**: New APIs for managing forwards and services have been integrated to the user resource. All call forwards
+can now be fully controlled through the REST API. This new API represents an additional step towards our long-term goal
+of offering a PBX system that is more flexible, customizable and useful for third party developers.
 
 Technical Features
 ------------------
@@ -43,8 +42,9 @@ cards.
 Ongoing features
 ----------------
 
-**REST API**: We are working on new APIs for managing call transfers. This will offer third parties more flexibility
-  when developing applications that control the call flows.
+**REST API**: We are working on new APIs for managing call transfers and call permissions. Call permissions enable
+administrators to control which phone numbers are allowed to be called by users. This will offer third parties more
+flexibility when developing applications that control the call flows.
 
 **Web applications**: Work on tools for connecting web applications to XiVO is ongoing. A good example of a Web
   application is a switchboard application, where the operator may answer, hold and transfer calls from his browser,
