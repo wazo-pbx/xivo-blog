@@ -31,13 +31,13 @@ useful for third party developers.
 Technical Features
 ------------------
 
-**SCCP**: SCCP phones can be configured to use the g722 codec.
+**SCCP**: SCCP phones can be configured to use the G.722 codec.
 
 **Digium**: The firmware for Digium cards has been updated to the latest version which supports TE133 and TE435
 cards.
 
-**Yealink**: The firmware for V80 has been updated to the latest version. Support for the following Yealink phones has
-  also been added : T40P, T27P, T29P, T49G.
+**Yealink**: The firmware for V80 has been updated to the latest version. Official support for the Yealink T40P and
+  community support for the T27P, T29G and T49G has also been added.
 
 
 Ongoing features
