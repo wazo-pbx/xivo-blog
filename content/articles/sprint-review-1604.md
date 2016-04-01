@@ -14,7 +14,7 @@ New features in this sprint
 **Fax**: The Fax system in XiVO has been improved, thanks to the XiVO community (thank you Julien Revert). Fax files can be
 converted to PDF on reception. Files can also be deposited on a FTP server. Further details on how to configure these
 features can be found
-[in the documentation](http://documentation.xivo.io/en/stable/administration/fax/fax.html#using-the-ftp-backend)
+[in the documentation](http://documentation.xivo.io/en/latest/administration/fax/fax.html#using-the-ftp-backend)
 
 **Forwards**: The behaviour of the call forwards BLFs is completely consistent across the unconditional, busy and no-answer
 forwards. A BLF (Busy Lamp Field) is a small light found next to the function key on a phone. The light helps indicate
@@ -59,6 +59,6 @@ communications across the vast VoIP expanse.*
 
 Sources:
 
-* [XiVO 16.04 Upgrade notes](http://documentation.xivo.io/en/stable/upgrade/upgrade.html#id2)
+* [XiVO 16.04 Upgrade notes](http://documentation.xivo.io/en/latest/upgrade/upgrade.html#id2)
 * [XiVO 16.04 Roadmap](http://projects.xivo.io/versions/240)
-* [REST API Changelog](http://documentation.xivo.io/en/stable/api_sdk/rest_api/confd/changelog.html)
+* [REST API Changelog](http://documentation.xivo.io/en/latest/api_sdk/rest_api/confd/changelog.html)
