@@ -1,6 +1,6 @@
 Title: Sprint Review 16.05
 Date: 2016-04-20
-Author: gsanderson
+Author: sduthil
 Category: XiVO IPBX
 Tags: XiVO, development
 Slug: sprint-review-1605
