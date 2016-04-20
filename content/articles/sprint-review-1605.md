@@ -22,7 +22,7 @@ Ongoing features
 
 **Call Transfers**: We are working on a new API for managing call transfers. This will offer third parties more flexibility when developing applications that control the call flows, such as a Web Switchboard. In addition, this new API should solve a number of bugs related to call transfers.
 
-**Installation Wizard**: The wizard is the little assistant that allows administrators to setup the XiVO server. We are working on a new API allowing to setup XiVO automatically, without the need of the XiVO web interface. The wizard is a very important part of XiVO, since it's the mandatory way to finalize the installation of XiVO. So the time has come to squash some nasty bugs that would put beginners to a complete stop before even trying XiVO.
+**Installation Wizard**: The wizard is the little assistant that allows administrators to setup the XiVO server. The wizard is a very important part of XiVO, since it's the mandatory way to finalize the installation of XiVO. We are working on a new API allowing to setup XiVO automatically, without the need of the XiVO web interface. Also there are some known bugs in the current wizard blocking the end of the installation that would put beginners to a complete stop before even trying XiVO. So the time has come to squash those nasty bugs!
 
 ---
 
