@@ -27,7 +27,7 @@ Ongoing features
 
 **Call Transfers**: We are working on a new API for managing call transfers. This will offer third parties more flexibility when developing applications that control the call flows, such as a Web Switchboard. In addition, this new API should solve a number of bugs related to call transfers.
 
-**Entity management**: Entities are used to manage multiple groups of users on the same XiVO server, but each group can't see the other. This is useful for exemple when managing multiple departments of the same big company, but each department has its own telephony administrator, and each administrator should only see the users of his own department. This feature was until now exclusive to the web interface, but we are working on making this feature manageable through a REST API. As with other REST APIs, this will allow creating different graphical interfaces for managing XiVO, as well as automating this management.
+**Entity management**: Entities are used to manage multiple groups of users on the same XiVO server, but each group can't see the other. This is useful for exemple when managing multiple departments of the same big company, but each department has its own telephony administrator, and each administrator should only see the users of their own department. This feature was until now exclusive to the web interface, but we are working on making this feature manageable through a REST API. As with other REST APIs, this will allow creating different graphical interfaces for managing XiVO, as well as automating this management.
 
 ---
 
