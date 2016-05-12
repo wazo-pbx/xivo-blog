@@ -35,6 +35,6 @@ See you at the next sprint review!
 
 Sources:
 
-* [XiVO 16.06 Upgrade notes](http://documentation.xivo.io/en/latest/upgrade/upgrade.html#id2)
+* [Upgrade notes](http://documentation.xivo.io/en/latest/upgrade/upgrade.html)
 * [XiVO 16.06 Roadmap](http://projects.xivo.io/versions/242)
 * [REST API Changelog](http://documentation.xivo.io/en/latest/api_sdk/rest_api/confd/changelog.html)
