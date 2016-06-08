@@ -30,7 +30,7 @@ machines.
 Who is going to glue this all together? Our trusted friend
 [Jenkins](https://jenkins.io) (which you can meet on
 [http://jenkins.xivo.io](http://jenkins.xivo.io)) is the perfect candidate.
-Here's the summary of [his job](http://jenkins.xivo.io/acceptance-ha):
+Here's the summary of [his job](http://jenkins.xivo.io/job/daily-acceptance-ha):
 
 ![The steps of the Jenkins job: clone, terraform, configure, test](/public/jenkins-terraform.svg)
 
