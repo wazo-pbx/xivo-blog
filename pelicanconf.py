@@ -7,7 +7,7 @@ SITENAME = 'XiVO Blog'
 SITEURL = ''
 SITELOGO = 'public/xivo-logo.png'
 FAVICON = SITEURL + '/public/favicon.ico'
-COPYRIGHT_YEAR = 2015
+COPYRIGHT_YEAR = '2015-2016'
 CC_LICENSE = {'name': 'Create Commons Attribution-ShareAlike',
               'version': '4.0',
               'slug': 'by-sa'}
