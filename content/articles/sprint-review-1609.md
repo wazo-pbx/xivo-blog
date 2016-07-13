@@ -17,13 +17,15 @@ New features in this sprint
 
 **User call flow**: New APIs have also been added so that users may control their current call flow, like hanging up or transferring to a third party. The XiVO Client uses those APIs under the hood, and benefits from a couple of bugfixes brought by those APIs.
 
-**Installation**: Older versions of XiVO may be installed via the installation script (only the older ISO images were available until now). This is especially useful for restoring old backups, or migrating XiVO across machines. Thank you to Grégory Esnaud from the XiVO community for contributing!
+**Installation**: Older versions of XiVO may be installed via the installation script (only the older ISO images were available until now). This is especially useful for restoring old backups, or migrating XiVO across machines. Thank you to Gregory Esnaud from the XiVO community for contributing!
+
+**Operators**: XiVO is now compatible with operators and devices offering SS7 signalling. This allows XiVO to be used with more diverse physical interconnections.
 
 
 Technical features
 ------------------
 
-**SCCP phones:** the new firmwares 9.4 are available.
+**SCCP phones:** The newer Cisco SCCP firmwares 9.4 are available for installation.
 
 ---
 
@@ -32,4 +34,6 @@ See you at the next sprint review!
 Sources:
 
 * [Upgrade notes](http://documentation.xivo.io/en/latest/upgrade/upgrade.html#upgrade-notes)
+* [xivo-confd REST API Changelog](http://documentation.xivo.io/en/latest/api_sdk/rest_api/confd/changelog.html)
+* [xivo-ctid-ng REST API Changelog](http://documentation.xivo.io/en/latest/api_sdk/rest_api/ctid-ng/changelog.html)
 * [XiVO 16.09 Roadmap](http://projects.xivo.io/versions/245)
