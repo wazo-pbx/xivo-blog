@@ -11,7 +11,7 @@ Hello XiVO community! Here comes the release of XiVO 16.09!
 New features in this sprint
 ---------------------------
 
-**Web interface**: We've reduced the edition time of a user in the web interface: this operation was especially long when a user had many function keys.
+**Web interface**: Editing a user with many functions keys now takes the same time as editing a user with no function keys. There is a noticeable performance improvement when editing users with lots (25+) of function keys.
 
 **Entities**: A new API has been added to manage entities on a XiVO. Entities allow administrators to isolate multiple companies or departments on the same XiVO server, so that they may share resources like the machine itself, or phone connections with operators.
 
