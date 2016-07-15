@@ -35,6 +35,8 @@ Community contributions
 
 **Installation**: Thanks to Gregory Esnaud for improving the installation script so that we can install archived versions of XiVO.
 
+**Provisioning**: Thanks to Jeremy Spiesser for adding support for TCP and TLS transport to the Yealink plugins.
+
 ---
 
 See you at the next sprint review!
