@@ -27,6 +27,14 @@ Technical features
 
 **SCCP phones:** The newer Cisco SCCP firmwares 9.4 are available for installation.
 
+
+Community contributions
+-----------------------
+
+**Monitoring**: Thanks to Alexandre Lafarcinade for fixing the bug [6278](http://projects.xivo.io/issues/6278) which make Monit alerts much more useful in an environment with multiple XiVO.
+
+**Installation**: Thanks to Gregory Esnaud for improving the installation script so that we can install archived versions of XiVO.
+
 ---
 
 See you at the next sprint review!
