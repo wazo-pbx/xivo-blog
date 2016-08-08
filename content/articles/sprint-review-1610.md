@@ -11,7 +11,7 @@ Hello XiVO community! Here comes the release of XiVO 16.10!
 New features in this sprint
 ---------------------------
 
-**XiVO Client**: There are currently three ways of starting a transfer in XiVO: from the key on your phone, by dialing *1 or *2 during the call, or from the XiVO Client. In the latter case, there was no way to complete or cancel the transfer from the XiVO Client since the xlet Contacts was replaced with the xlet People. You could complete the transfer by hanging up your phone, but cancelling a transfer was simply not possible at all, since dialing *0 during the call has no effect for transfers started from the XiVO Client. This problem is now fixed by the addition to the xlet Identity of two new buttons: complete and cancel a transfer.
+**XiVO Client**: There are currently three ways of starting a transfer in XiVO: from the key on your phone, by dialing `*1` or `*2` during the call, or from the XiVO Client. In the latter case, there was no way to complete or cancel the transfer from the XiVO Client since the xlet Contacts was replaced with the xlet People. You could complete the transfer by hanging up your phone, but cancelling a transfer was simply not possible at all, since dialing `*0` during the call has no effect for transfers started from the XiVO Client. This problem is now fixed by the addition to the xlet Identity of two new buttons: complete and cancel a transfer.
 
 ![The new buttons of the xlet Identity](/public/16.10/identity-transfer.png)
 
