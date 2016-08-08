@@ -15,6 +15,8 @@ New features in this sprint
 
 ![The new buttons of the xlet Identity](/public/16.10/identity-transfer.png)
 
+**REST API**: Some restrictions of the current API of users and phones has been lifted: it is now possible to have one user with multiple phones on the same (or multiple) numbers. The main goal is to allow users to associate their different phones (physical phone, softphone or mobile) with the same phone number so that they all ring at the same time. Until now you had to create a group of users, and each user had only one phone. This new feature makes simple multi-phones configuration easier, but you can't (yet) choose a ring strategy like groups: all the phones will ring in the same time or not at all. The different phones may also have their own number, so a user may now have one number per phone. Again, this was already possible but somewhat cumbersome. Most features of XiVO support this new kind of configuration, but [some will only use one phone](http://projects.xivo.io/issues/6344).
+
 Technical features
 ------------------
 
@@ -30,7 +32,7 @@ Community contributions
 Ongoing features
 ----------------
 
-**Multiple phones**: We are working on supporting multiple phones for the same user. The REST API is working, and we still need to integrate it in the web interface, but it's almost there! This is a feature we've been waiting for a long time, and it's the result of a long set of modifications we started a few years ago, so we're really glad we can finally make this step forward.
+**Multiple phones**: We are working on fully supporting multiple phones for the same user. As we said above, the REST API is working, and we still need to integrate it in the web interface, but it's almost there! This is a feature we've been waiting for a long time, and it's the result of a long set of modifications we started a few years ago, so we're really glad we can finally make this step forward.
 
 
 ---
