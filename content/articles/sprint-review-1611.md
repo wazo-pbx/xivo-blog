@@ -23,7 +23,7 @@ Important bug fixes
 Community contributions
 -----------------------
 
-**Web interface**: Thanks to Kévin Labécot for providing fixes to [display problems](http://projects.xivo.io/issues/6362) when using XiVO with OpenVZ.
+**Web interface**: Thanks to Kevin Labécot for providing fixes to [display problems](http://projects.xivo.io/issues/6362) when using XiVO with OpenVZ.
 
 
 Ongoing features
