@@ -11,9 +11,15 @@ Hello XiVO community! Here comes the release of XiVO 16.12!
 New features in this sprint
 ---------------------------
 
-**Provisioning**: Support for SNOM D745 has been added.
-**Directories**: The phonebooks from xivo-dird now support imports.
-**Asterisk**: Asterisk is now in version 13.11.2
+**Provisioning**: Support for Snom D745 has been added.
+
+**Directories**: The phonebooks from xivo-dird now support imports. This feature is currently available only from the xivo-dird REST API.
+
+
+Technical features
+------------------
+
+**Asterisk**: Asterisk has been upgraded to [13.11.2](http://downloads.asterisk.org/pub/telephony/asterisk/releases/ChangeLog-13.11.2)
 
 
 Important bug fixes
@@ -25,13 +31,14 @@ Important bug fixes
 Community contributions
 -----------------------
 
-**tutorials**: Thanks to Eric Viel from Iper Telecom for his tutorial on configuring Keepalived with the XiVO high availability to have a floating IP
+**Tutorials**: Thanks to Eric Viel from Iper Telecom for his tutorial on configuring Keepalived with the XiVO high availability to have a floating IP.
 
 
 Ongoing features
 ----------------
 
-**Directories**: The old directory in the web interface will be replaced with the phonebooks from xivo-dird. Allowing many phonebooks owned by different entities.
+**Directories**: The old directory in the web interface will be replaced with the phonebooks from xivo-dird, allowing many phonebooks owned by different entities.
+
 **REST API**: API to manage incoming calls are in progress.
 
 
