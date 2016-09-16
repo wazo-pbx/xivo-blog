@@ -52,7 +52,7 @@ offered in the next coming releases.Our development method is based on
 short iterations of 2 weeks, which will produce a finished and working
 product. So every 2 weeks a new release is produced and you will be able
 to upgrade and enjoy bug fixes and new features. Do not hesitate to
-follow http://projects.xivo.fr and http://documentation.xivo.fr/ to get
+follow http://projects.xivo.io and http://documentation.xivo.io/ to get
 a better view.
 
 We will go through our process in more details in a later post to

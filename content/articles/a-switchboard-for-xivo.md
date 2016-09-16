@@ -56,7 +56,7 @@ What are the next steps
 See the documentation for all the details to enable your new XiVO
 switchboard.
 
-<http://documentation.xivo.fr/dev/administration/switchboard/switchboard.html>
+<http://documentation.xivo.io/dev/administration/switchboard/switchboard.html>
 
 </p>
 

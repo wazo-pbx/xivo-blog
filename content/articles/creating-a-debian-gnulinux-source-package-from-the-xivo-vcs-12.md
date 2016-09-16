@@ -8,11 +8,11 @@ Status: published
 
 #### Source GIT structure
 
-The [GIT repository](http://git.xivo.fr/xivo-skaro.git/) can be
+The [GIT repository](http://git.xivo.io/xivo-skaro.git/) can be
 extracted as follows:
 
 ~~~
-git clone git://git.xivo.fr/xivo-skaro.git
+git clone git://git.xivo.io/xivo-skaro.git
 ~~~
 
 
@@ -190,7 +190,7 @@ create the source packages that can be fed to
 a [XiVO skaro
 repository](http://xivo.dachary.org/packaging-farm/skaro/gnulinux/debian/)
 described in the [series on building an independant XiVO
-repository](http://blog.xivo.fr/index.php?post/2011/02/22/Creating-an-independant-XiVO-Debian-GNU/Linux-repository-from-scratch-%28part-4/4%29).In
+repository](http://blog.xivo.io/index.php?post/2011/02/22/Creating-an-independant-XiVO-Debian-GNU/Linux-repository-from-scratch-%28part-4/4%29).In
 the second part of this entry, the script will be complete and a the
 XiVO skaro repository updated.
 

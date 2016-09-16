@@ -17,7 +17,7 @@ class](http://git.proformatique.com/?p=official/debian-installer.git;a=tree;f=sq
 that will pull packages from [the
 gallifrey](http://xivo.dachary.org/packaging-farm/gallifrey/gnulinux/debian/)
 repository [created with
-packaging-farm](http://blog.xivo.fr/index.php?post/2011/04/27/An-alternate-XiVO-gallifrey-repository-%28part-2/2%29).
+packaging-farm](http://blog.xivo.io/index.php?post/2011/04/27/An-alternate-XiVO-gallifrey-repository-%28part-2/2%29).
 
 #### Virtual machine
 

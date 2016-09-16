@@ -5,7 +5,7 @@ Category: XiVO IPBX
 Slug: xivo-sources-conventions-implemented-and-documented
 Status: published
 
-The [debian GNU/Linux packages repository](http://git.xivo.fr/debian)
+The [debian GNU/Linux packages repository](http://git.xivo.io/debian)
 was made public a few days ago. The
 [pf-release.sh](http://xivo.dachary.org/pf-release.sh) shell script
 based on the internal SVN repository has been updated to use the public
@@ -44,8 +44,8 @@ SYNOPSIS
 	 [PACKAGES_DIR=/var/cache/packaging-farm/sources] \
 	 [XIVO=skaro] \
 	 [SUITE=squeeze] \
-	 [SOURCE_GIT=git://git.xivo.fr] \
-	 [DEBIAN_GIT=git://git.xivo.fr/debian] \
+	 [SOURCE_GIT=git://git.xivo.io] \
+	 [DEBIAN_GIT=git://git.xivo.io/debian] \
 	 [DEBEMAIL=technique@proformatique.com] \
 	 [DEBFULLNAME="Proformatique Maintainance Team"] \
 	 [DIRECTORY=] \
@@ -117,20 +117,20 @@ TARBALL CONSISTENCY
        one Debian GNU/Linux package for a given source.
 
 NAMESPACES
-       git://git.xivo.fr source tree
+       git://git.xivo.io source tree
 	      contains one repository for each component
-	      http://git.xivo.fr/xivo-dalek.git
-	      http://git.xivo.fr/xivo-gallifrey.git
-	      http://git.xivo.fr/xivo-skaro.git Within	each  repository,  the
+	      http://git.xivo.io/xivo-dalek.git
+	      http://git.xivo.io/xivo-gallifrey.git
+	      http://git.xivo.io/xivo-skaro.git Within	each  repository,  the
 	      directories  containing a Makefile.pkg file contain sources that
 	      are candidates for packaging.
 
 
-       git://git.xivo.fr/debian package tree
+       git://git.xivo.io/debian package tree
 	      contains one repository for each component
-	      http://git.xivo.fr/debian/lenny-xivo-dalek.git
-	      http://git.xivo.fr/debian/lenny-xivo-gallifrey.git
-	      http://git.xivo.fr/debian/squeeze-xivo-skaro.git	 Within   each
+	      http://git.xivo.io/debian/lenny-xivo-dalek.git
+	      http://git.xivo.io/debian/lenny-xivo-gallifrey.git
+	      http://git.xivo.io/debian/squeeze-xivo-skaro.git	 Within   each
 	      repository, each directory contains a trunk/debian sub-directory
 	      matching the corresponding DEB_PKG in the source directory.
 
@@ -172,12 +172,12 @@ ENVIRONMENT
 	      stored.
 
 
-       SOURCE_GIT=git://git.xivo.fr
+       SOURCE_GIT=git://git.xivo.io
 	      The directory containing the source code repositories  for  each
 	      XiVO suite.
 
 
-       DEBIAN_GIT=git://git.xivo.fr/debian
+       DEBIAN_GIT=git://git.xivo.io/debian
 	      The  directory  containing the Debian GNU/Linux repositories for
 	      each XiVO suite.
 

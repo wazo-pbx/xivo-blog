@@ -24,7 +24,7 @@ did not try real phones (yet).
 This exercise had multiple benefits :
 
 -   it allowed us to test the [XiVO Client internationalization
-    procedure](https://wiki.xivo.fr/index.php/XiVO_1.2-Skaro/CTI_XiVO_Client_Qt_Developer#Add_a_translation_for_the_XiVO_Client)
+    procedure](https://wiki.xivo.io/index.php/XiVO_1.2-Skaro/CTI_XiVO_Client_Qt_Developer#Add_a_translation_for_the_XiVO_Client)
 -   we know Unicode is accepted in the main modules of XiVO
 -   we have the beginning of a Japanese translation for the XiVO Client
 -   it was not very long, 3 hours tops

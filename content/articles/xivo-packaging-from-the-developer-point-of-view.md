@@ -19,7 +19,7 @@ packaging-farm.conf and submit-xivo.sh manual pages.
 -   Guillaume gets work done on the **web-interface** directory of the
     internal SVN
 -   It is mirrored every 5 minutes to the [external
-    GIT](http://git.xivo.fr/xivo-skaro.git/)
+    GIT](http://git.xivo.io/xivo-skaro.git/)
 -   Guillaume submits the rebuild of the package to skaro.dachary.org
 
 <!-- -->
@@ -179,8 +179,8 @@ It will output something that looks like:
 ~~~
 Create source packages from XiVO repositories.
 
-The debian directories are cloned from git://git.xivo.fr/debian into /var/cache/packaging-farm/VCS/debian/squeeze-xivo-skaro
-The sources are cloned from git://git.xivo.fr into /var/cache/packaging-farm/VCS/sources/xivo-skaro
+The debian directories are cloned from git://git.xivo.io/debian into /var/cache/packaging-farm/VCS/debian/squeeze-xivo-skaro
+The sources are cloned from git://git.xivo.io into /var/cache/packaging-farm/VCS/sources/xivo-skaro
 The packages are created in /var/cache/packaging-farm/sources
 
 Usage:

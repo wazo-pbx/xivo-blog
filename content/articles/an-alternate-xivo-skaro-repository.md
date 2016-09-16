@@ -102,7 +102,7 @@ pbuilder --create --architecture i386 --distribution squeeze --basetgz /var/cach
 
 The only package that could not be rebuilt was pf-asterisk-res-watchdog
 and a bug was reported regarding its [missing build depend to
-python](https://projects.xivo.fr/issues/2302).
+python](https://projects.xivo.io/issues/2302).
 
 #### managing timestamps when submitting a package
 
@@ -119,7 +119,7 @@ trigger a recompilation of each package, even those that were not
 changed since the last compilation. That can be avoided by selecting the
 relevant packages, using a method similar to the [one described in a
 previous
-post](http://blog.xivo.fr/index.php?post/2011/05/30/Using-and-Updating-a-XiVO-gallifrey-repository).
+post](http://blog.xivo.io/index.php?post/2011/05/30/Using-and-Updating-a-XiVO-gallifrey-repository).
 To avoid a manual selection, the submit-xivo.sh was modified to do
 nothing if it notices that the git repositories do not contain any
 commit more recent than the timestamp updated when the last compilation

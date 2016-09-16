@@ -14,7 +14,7 @@ Web services. A few examples of what can be done with this API
 includelisting users, lines, extensions, devices, voicemails, creating
 users, givingthem a SIP line and an extension. The documentation of the
 API is available
-[online](http://documentation.xivo.fr/dev/api_sdk/rest_api/1.1/api-1.1.html "API documentation").
+[online](http://documentation.xivo.io/dev/api_sdk/rest_api/1.1/api-1.1.html "API documentation").
 
 The REST API offers one new feature that is not possible via the Web
 interface:associating multiple users to a single SIP line. The main use

@@ -25,7 +25,7 @@ action uri poll interval: 60
 
 
 For more information about the template go to : [creating custom
-templates](http://documentation.xivo.fr/production/administration/provisioning/adv_configuration.html#creating-custom-templates)
+templates](http://documentation.xivo.io/production/administration/provisioning/adv_configuration.html#creating-custom-templates)
 
 The code is available on
 [gitorious](https://gitorious.org/xivo/xivo-experimental/trees/master/xivoaastrafrommedes)

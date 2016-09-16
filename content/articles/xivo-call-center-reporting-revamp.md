@@ -75,13 +75,13 @@ themselves but is a step to better test automation for XiVO.
 Documentation
 
 The documentation for call center statistics is
-available[here](http://documentation.xivo.fr/dev/contact_center/statistics/statistics.html "Call center statistics").
+available[here](http://documentation.xivo.io/dev/contact_center/statistics/statistics.html "Call center statistics").
 
 The code
 
-xivo-stat is available at git://git.xivo.fr/official/xivo-stat.git
+xivo-stat is available at git://git.xivo.io/official/xivo-stat.git
 
-xivo-callgen is available at git://git.xivo.fr/official/xivo-callgen.git
+xivo-callgen is available at git://git.xivo.io/official/xivo-callgen.git
 
 </p>
 

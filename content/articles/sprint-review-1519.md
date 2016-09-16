@@ -85,4 +85,4 @@ May the freedom of XiVO bless your communications across the vast VoIP expanse.*
 Sources:
 
 * [XiVO 15.19 Roadmap](http://projects.xivo.io/versions/235" XiVO 15.19 Roadmap")
-* [xivo-confd Changelog](http://documentation.xivo.fr/en/latest/api_sdk/rest_api/confd/changelog.html)
+* [xivo-confd Changelog](http://documentation.xivo.io/en/latest/api_sdk/rest_api/confd/changelog.html)

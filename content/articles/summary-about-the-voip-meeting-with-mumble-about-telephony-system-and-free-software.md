@@ -24,7 +24,7 @@ line](http://barcamp.org/w/page/97007235/BarCampMumble-VoIP-OpenSource).
 -   Last events - BarCamp \#1 et \#2
     [websites](http://barcamp.org/w/page/94666184/BarCampIRC-Qu%C3%A9bec)
 -   News about BarCamp \#3 on
-    [blog.xivo.fr](/index.php?post/2015/06/04/A-BarCamp-about-VoIP%2C-with-Mumble)
+    [blog.xivo.io](/index.php?post/2015/06/04/A-BarCamp-about-VoIP%2C-with-Mumble)
     and on
     [twitter](https://twitter.com/v_dagrain/status/607894402632171520)
 

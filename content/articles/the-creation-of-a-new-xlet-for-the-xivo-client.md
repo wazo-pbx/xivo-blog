@@ -18,7 +18,7 @@ The first step to creating your own xlet is to get the XiVO client
 sources. The sources can be retrieved with the following command:
 
 ~~~
-git clone git://git.xivo.fr/official/xivo-client-qt.git
+git clone git://git.xivo.io/official/xivo-client-qt.git
 ~~~
 
 

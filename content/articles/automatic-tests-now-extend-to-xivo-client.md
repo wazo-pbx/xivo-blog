@@ -7,7 +7,7 @@ Slug: automatic-tests-now-extend-to-xivo-client
 Status: published
 
 For months now, we have had our continuous integration tool
-[Jenkins](http://jenkins.xivo.fr/ "Jenkins") running automatic tests to
+[Jenkins](http://jenkins.xivo.io/ "Jenkins") running automatic tests to
 detect regression bugs on the XiVO web interface. But the web interface
 is not the only interface XiVO offers ; there is a XiVO Client, running
 as a stand-alone Qt application on other machines.
@@ -88,7 +88,7 @@ framework](http://qt.nokia.com/ "Qt framework") quality and its platform
 abstraction features.
 
 There is a [documentation
-page](https://wiki.xivo.fr/index.php/XiVO_1.2-Skaro/CTI_XiVO_Client_Qt_Tester "documentation page")
+page](https://wiki.xivo.io/index.php/XiVO_1.2-Skaro/CTI_XiVO_Client_Qt_Tester "documentation page")
 that explains how to use the remote control feature.
 
 Links :  

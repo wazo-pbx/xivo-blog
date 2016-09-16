@@ -193,7 +193,7 @@ http://www.online.nethttps://www.digitalocean.com/pricing
 -   Debogguer SIP
 -   Comment faire pour ré-écrire le numéro d'un poste interne ?
 
-http://documentation.xivo.fr/en/stable/api\_sdk/subroutine.html?highlight=global%20subroutine
+http://documentation.xivo.io/en/stable/api\_sdk/subroutine.html?highlight=global%20subroutine
 
 -   XiVO : sur la valorisatoin des comm' , les tutoriaux sur Wikipedia
     XiVO ; le business model des intégrateurs ; des logos Libres en

@@ -108,7 +108,7 @@ version numbers produced by
 must start with the upstream version and ends with a version number
 computed from the date and a mercurial hash. It is computed for packages
 for which a \*-VERSION file found in the corresponding [source
-directory](http://git.xivo.fr/xivo-skaro.git/).
+directory](http://git.xivo.io/xivo-skaro.git/).
 
 </p>
 

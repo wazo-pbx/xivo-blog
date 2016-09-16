@@ -19,14 +19,14 @@ XiVO, it is generated using 3 different components
 
 You'll find this 3 components here :
 
--   git://git.xivo.fr/official/xivo-confgen.git for confgen
--   git://git.xivo.fr/official/xivo-skaro.git directory base-config for
+-   git://git.xivo.io/official/xivo-confgen.git for confgen
+-   git://git.xivo.io/official/xivo-skaro.git directory base-config for
     the static part
--   git://git.xivo.fr/official/xivo-skaro.git directory agid for the
+-   git://git.xivo.io/official/xivo-skaro.git directory agid for the
     dynamic part
 
 You may also have a look at our CI server
-[jenkins](http://jenkins.xivo.fr/)
+[jenkins](http://jenkins.xivo.io/)
 
 </p>
 

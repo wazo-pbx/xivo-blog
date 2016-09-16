@@ -16,7 +16,7 @@ this respect, we do not forget to do our 'inspect and adapt' meeting,
 not so many often as we should but this is an other story !
 
 Anyway, XiVO documentation is currently done using a
-[wiki](http://wiki.xivo.fr "wiki"), but this wiki is hard to maintain
+[wiki](http://wiki.xivo.io "wiki"), but this wiki is hard to maintain
 and to structure, information is also difficult to find. We tried also
 to use other type of wikis, but nothing was very satisfying.
 
@@ -42,13 +42,13 @@ Do not hesitate to clone the project and submit documentation patches
 !!!
 
 Last but not least, documentation production is now integrated in our
-tool chain, using [jenkins](http://jenkins.xivo.fr "jenkins") as
+tool chain, using [jenkins](http://jenkins.xivo.io "jenkins") as
 integration server, files are pulled from Gitorious automatically to
 produce the [XiVO documentation
-site](http://documentation.xivo.fr "XiVO documentation site")
+site](http://documentation.xivo.io "XiVO documentation site")
 
 You will find how to contribute
-[here](http://documentation.xivo.fr/developers/contributes/index.html "here")
+[here](http://documentation.xivo.io/developers/contributes/index.html "here")
 Have fun !!
 
 ![XiVO documentation tool

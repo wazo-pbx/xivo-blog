@@ -30,7 +30,7 @@ channel driver.
 
 For those having CISCO phones that use the SCCP technology, we've put
 online a tutorial to help you get this done:
-<http://documentation.xivo.fr/dev/administration/sccp/sccp.html>
+<http://documentation.xivo.io/dev/administration/sccp/sccp.html>
 
 At the bottom of the tutorial, you will also find the list of feature
 and telephone type that we actually support.We hope to extend this list

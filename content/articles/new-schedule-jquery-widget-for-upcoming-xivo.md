@@ -97,7 +97,7 @@ Finally, you initialize your schedule widget:
 and voila! see attached file for the complete sample.
 
 **xivo-schedule can be downloaded from [our git
-repository](git://git.xivo.fr/xivo-dalek.git) or [on
+repository](git://git.xivo.io/xivo-dalek.git) or [on
 github](https://github.com/gbour/xivo-schedule)**
 
 </p>

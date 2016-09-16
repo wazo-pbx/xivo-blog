@@ -103,7 +103,7 @@ our preseed
 label XiVO
        menu label XiVO
        kernel linux
-       append initrd=initrd.gz rw auto=true priority=critical url=http://mirror.xivo.fr classes=skaro locale=en_US.UTF-8 interface=auto hostname=xivo --
+       append initrd=initrd.gz rw auto=true priority=critical url=http://mirror.xivo.io classes=skaro locale=en_US.UTF-8 interface=auto hostname=xivo --
 ~~~
 
 
@@ -124,7 +124,7 @@ our /data directory (and an entry d-i in our nginx configuration) :
 
 
 You can find our preseed repository on
-git://git.xivo.fr/official/debian-installer.git
+git://git.xivo.io/official/debian-installer.git
 
 In a next post, I will explain how we use the class to customize our
 installation.

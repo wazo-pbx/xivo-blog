@@ -11,9 +11,9 @@ The resulting packages are then uploaded to a directory that depends on
 the operating system :
 
 -   [Debian GNU/Linux i386 and
-    amd64](http://downloads.xivo.fr/xivo_cti_client/linux/debian/)
--   [Windows](http://downloads.xivo.fr/xivo_cti_client/win32/)
--   [MacOsX](http://downloads.xivo.fr/xivo_cti_client/macos/)
+    amd64](http://downloads.xivo.io/xivo_cti_client/linux/debian/)
+-   [Windows](http://downloads.xivo.io/xivo_cti_client/win32/)
+-   [MacOsX](http://downloads.xivo.io/xivo_cti_client/macos/)
 
 The Debian GNU/Linux packages are created by a [custom
 script](http://git.proformatique.com/?p=official/xivo-client-qt.git;a=blob;f=cross/installer.sh)
@@ -33,14 +33,14 @@ The XiVO web interface is made of a JQuery based
 relying on web services provided by the XiVO server. It is not packaged
 on its own : when the user connects to the PHP based web interface (as
 found in the web-interface directory of the [git
-repository](http://git.xivo.fr/xivo-skaro.git/)) the browser loads it as
+repository](http://git.xivo.io/xivo-skaro.git/)) the browser loads it as
 a side effect.
 
 The XiVO android client is packaged using the Eclipse based toolkit.
 
 #### XiVO server packaging source policy
 
-The [XiVO server sources](http://git.xivo.fr/) and the corresponding
+The [XiVO server sources](http://git.xivo.io/) and the corresponding
 Debian GNU/Linux packaging instructions follow an undocumented policy.
 The SVN respository containing the packaging instructions is not
 published but it can be re-constructed from the Debian GNU/Linux
@@ -56,7 +56,7 @@ repository](http://dak.proformatique.com/debian/).
     XiVO distribution.
 -   A third party package source tree is made of (take a look at the
     freeswitch directory of the [git
-    repository](http://git.xivo.fr/xivo-skaro.git/) for an example):
+    repository](http://git.xivo.io/xivo-skaro.git/) for an example):
     -   tarballs that contains all past and current source archives
     -   fetch\_tarball.sh that will get the latest source archive from
         the official source and place it in the tarballs directory

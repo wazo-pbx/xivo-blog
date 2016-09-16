@@ -11,7 +11,7 @@ I had the chance to participate to
 [Caluire](http://www.ville-caluire.fr/) town hall installation a couple
 of weeks ago, where we deployed almost 150 phone sets in the building.
 
-Two corporate [XIVO](https://wiki.xivo.fr/index.php/Accueil) servers
+Two corporate [XIVO](https://wiki.xivo.io/index.php/Accueil) servers
 were inserted between the legacy PBX (Matra) and the PSTN network, we
 spent a lot of time to try to figure out how many channels were
 available as nobody did know it and the information was lost ! ;). Once

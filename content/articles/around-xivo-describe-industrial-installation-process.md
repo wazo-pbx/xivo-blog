@@ -11,7 +11,7 @@ There are four possibilities to install Xivo software :
 -   By hand ;)
 -   Using an installation script (only for gallifrey and skaro-dev at
     the moment)
--   Using an installation cd (available on http://mirror.xivo.fr/iso)
+-   Using an installation cd (available on http://mirror.xivo.io/iso)
 -   Using pxe
 
 <!-- -->
@@ -40,9 +40,9 @@ can find a lot of online (possibly outdated) documentation.
 You may find our pxe configuration on our git repositories :
 
 -   our pxe configuration on
-    http://git.xivo.fr/?p=official/debian-pxelinux.git;a=summary
+    http://git.xivo.io/?p=official/debian-pxelinux.git;a=summary
 -   our installation class
-    http://git.xivo.fr/?p=official/debian-installer.git;a=summary
+    http://git.xivo.io/?p=official/debian-installer.git;a=summary
 
 I will fully explain our configuration in futures posts
 

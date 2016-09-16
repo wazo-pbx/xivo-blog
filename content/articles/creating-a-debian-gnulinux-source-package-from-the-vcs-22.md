@@ -9,7 +9,7 @@ Status: published
 #### pf-release.sh
 
 The [pf-release.sh shell script](http://xivo.dachary.org/pf-release.sh)
-merges the [GIT repository](http://git.xivo.fr/xivo-skaro.git/)
+merges the [GIT repository](http://git.xivo.io/xivo-skaro.git/)
 containing the sources and the SVN repository containing the debian
 packages into a well formed Debian GNU/Linux source package. For
 instance

@@ -9,9 +9,9 @@ Nicolas Hicher is the XiVO release manager that make it happen. His
 input comes from a number of sources which are gradually migrated toward
 a set of git repositories which will become a central place:
 
--   git://git.xivo.fr/xivo-dalek.git for old stable
--   git://git.xivo.fr/xivo-gallifrey.git for stable
--   git://git.xivo.fr/xivo-skaro.git for unstable
+-   git://git.xivo.io/xivo-dalek.git for old stable
+-   git://git.xivo.io/xivo-gallifrey.git for stable
+-   git://git.xivo.io/xivo-skaro.git for unstable
 -   http://git.proformatique.com/ debian fai and XiVO Qt, Web, Android
     clients and more
 
@@ -69,7 +69,7 @@ stability of the existing repositories) that the skaro distribution
 will be broken while the development packages are migrated to skaro. He
 then proceeds with the update and tests the resulting repository by
 performing an [installation from
-scratch](https://wiki.xivo.fr/index.php/XiVO_1.1-Gallifrey/Install_XiVO_From_Scratch)
+scratch](https://wiki.xivo.io/index.php/XiVO_1.1-Gallifrey/Install_XiVO_From_Scratch)
 on a virtual machine via PXE. If the virtual machine indeed contains the
 expected packages and that the web interface displays, the production
 team is notified and does additional tests before launching upgrades

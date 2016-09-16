@@ -35,7 +35,7 @@ This powerfull tool allow us to write specific case scenario and replay
 it as we like. Furthermore, we wrote a traffic generator for the SCCP
 protocol, called SCCPp, that can act as a scriptable softphone. To
 orchestrate and automate all this, we are using Jenkins as a continuous
-integration tool. In short, [Jenkins](http://jenkins.xivo.fr/) is able
+integration tool. In short, [Jenkins](http://jenkins.xivo.io/) is able
 to replay all the different level of test automatically everytime
 something is modified in the code. All of this is still at an early
 stage, and is evolving everyday.
@@ -43,7 +43,7 @@ stage, and is evolving everyday.
 ![phone-tested.jpg](/public/libsccp/.phone-tested_s.jpg "phone-tested.jpg, déc. 2011")
 
 For those eager to dig into the code and start using it, you can find
-here how to get started and more:<https://wiki.xivo.fr/index.php/Sccp>
+here how to get started and more:<https://wiki.xivo.io/index.php/Sccp>
 
 If you are less comfortable with the 'Do It Yourself', libsccp is also
 getting integrated into XiVO Skaro and will be available in the next

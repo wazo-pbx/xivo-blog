@@ -122,8 +122,8 @@ The *gallifrey* sources and debian packages are to be found in the
 following repositories:
 
 ~~~
-http://git.xivo.fr/xivo-gallifrey.git/ sources
-http://git.xivo.fr/debian/lenny-xivo-gallifrey.git/ debian packages
+http://git.xivo.io/xivo-gallifrey.git/ sources
+http://git.xivo.io/debian/lenny-xivo-gallifrey.git/ debian packages
 ~~~
 
 
@@ -150,7 +150,7 @@ deb-src http://dak.proformatique.com/debian/ lenny-xivo-gallifrey-dev main
 
 using the method laid out in the [Creating an independant XiVO Debian
 GNU/Linux repository from
-scratch](http://blog.xivo.fr/index.php?post/2011/02/21/Creating-an-independant-XiVO-Debian-GNU/Linux-repository-from-scratch-%28part-3%29)
+scratch](http://blog.xivo.io/index.php?post/2011/02/21/Creating-an-independant-XiVO-Debian-GNU/Linux-repository-from-scratch-%28part-3%29)
 series.At the moment the development repository is incomplete. But it is
 being worked on and the making of the repository will resume when it is
 back online.

@@ -28,7 +28,7 @@ r10824 | kaou | 2011-05-16 11:08:49 +0200 (Mon, 16 May 2011) | 1 line
 ~~~
 
 
-The [git repository](http://git.xivo.fr/xivo-gallifrey.git/) was
+The [git repository](http://git.xivo.io/xivo-gallifrey.git/) was
 supposed to be updated by a cron job, but it crashed May 9th and was
 restarted May 16th by Romain Bignon:
 

@@ -69,4 +69,4 @@ See you at the next sprint review.
 Sources:
 
 * [XiVO 15.18 Roadmap](http://projects.xivo.io/versions/234" XiVO 15.18 Roadmap")
-* [xivo-confd Changelog](http://documentation.xivo.fr/en/latest/api_sdk/rest_api/confd/changelog.html)
+* [xivo-confd Changelog](http://documentation.xivo.io/en/latest/api_sdk/rest_api/confd/changelog.html)

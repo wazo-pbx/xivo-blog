@@ -33,7 +33,7 @@ trigger a first replication or for test purposes.
 Some limitations:
 
 -   This solution uses the backup registrar from the phones, see the
-    [documentation](http://documentation.xivo.fr "documentation") for
+    [documentation](http://documentation.xivo.io "documentation") for
     supported phones.
 -   Voice mail messages are not replicated between master and slave. A
     solution is to attach the message and to mail it in the notification

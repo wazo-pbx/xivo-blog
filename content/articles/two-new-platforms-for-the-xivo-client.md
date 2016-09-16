@@ -26,7 +26,7 @@ by the end of the week, with the XiVO 1.2.5 release.
 For hackers who would want to play around with the XiVO Client's source
 code on Mac OS (or other platforms), the instructions for building and
 coding can be found here :
-http://documentation.xivo.fr/dev/developers/xivo\_client/xivo\_client.html
+http://documentation.xivo.io/dev/developers/xivo\_client/xivo\_client.html
 
 Another big news, even though Archers are (unfortunately ;) ) a bit
 fewer than Mac users, the XiVO Client package for Archlinux on the AUR

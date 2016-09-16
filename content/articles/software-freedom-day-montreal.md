@@ -8,7 +8,7 @@ Status: published
 We were kindly invited to participate to the [Software Freedom
 Day](http://wiki.softwarefreedomday.org/2011/Canada/Montreal/SFD-ETS) at
 Montreal. It was a great day and we had the opportunity to speak about
-[XiVo](http://wiki.xivo.fr/).
+[XiVo](http://wiki.xivo.io/).
 
 Jean-Yves Lebleu talked about the software part, Nicolas Bouliane about
 the hardware, and Nicolas Hicher the packaging. It was also an

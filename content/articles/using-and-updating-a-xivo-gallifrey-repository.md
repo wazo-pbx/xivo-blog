@@ -158,7 +158,7 @@ index 0000000..2525ff9
 
 And the corresponding certificates created as instructed in the nginx
 documentation.The [IPPI
-instructions](https://wiki.xivo.fr/index.php/XiVO_1.1-Gallifrey/Trunk_SIP)
+instructions](https://wiki.xivo.io/index.php/XiVO_1.1-Gallifrey/Trunk_SIP)
 were followed to connect the XiVO just created with an [OVH phone
 number](http://www.ovh.com/fr/telephonie/). All of the instructiosn
 listed for IPPI apply to OVH because they use the same system (Cirpack).

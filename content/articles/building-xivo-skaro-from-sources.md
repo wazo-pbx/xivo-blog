@@ -9,7 +9,7 @@ Status: published
 #### packaging-farm documentation
 
 The XiVO package submission [was
-documented](http://blog.xivo.fr/index.php?post/2011/03/22/XiVO-sources-conventions-implemented-and-documented)
+documented](http://blog.xivo.io/index.php?post/2011/03/22/XiVO-sources-conventions-implemented-and-documented)
 but the packaging-farm command line that is used to build the submitted
 packages was not. An extensive manual page was written, focusing on the
 developer and the packager point of view. It does not go into the

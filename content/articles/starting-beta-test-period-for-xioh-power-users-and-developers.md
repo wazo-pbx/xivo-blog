@@ -12,16 +12,16 @@ appliances** available for shipping for developers and power-users that
 could be interested in testing and giving feedback on our product. The
 appliances are currently shipped in a metallic 1U-rackable case for up
 to 50 users and 10 simultaneous calls. It ships with [XiVO
-12.24](http://mirror.xivo.fr/iso/ "XiVO 12.24"). We're using free
+12.24](http://mirror.xivo.io/iso/ "XiVO 12.24"). We're using free
 [MSP430
-firmware](http://git.xivo.fr/?p=official/xioh/firmware.git;a=summary)
+firmware](http://git.xivo.io/?p=official/xioh/firmware.git;a=summary)
 running the power sequence of voltage levels for the different
 functional blocks, and a [free CPU boot
-firmware](http://git.xivo.fr/?p=official/xioh/coreboot.git;a=summary)
+firmware](http://git.xivo.io/?p=official/xioh/coreboot.git;a=summary)
 based on [Coreboot](http://coreboot.org). Each ROM contains MAC
 addresses with our OUI prefix, and a serial number. [Public design
 source
-files](http://git.xivo.fr/?p=official/xioh/hardware.git;a=summary) are
+files](http://git.xivo.io/?p=official/xioh/hardware.git;a=summary) are
 also available.
 
 **Here is a glimpse on the look-and-feel of the appliance:**

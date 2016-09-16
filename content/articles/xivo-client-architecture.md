@@ -28,7 +28,7 @@ applets, are plugins to the XiVO Client. Almost every function of the
 XiVO Client is pluggable/unpluggable, depending on the server
 configuration to allow some XLet to be activated. You can see what XLets
 look like in the [XiVO
-wiki](https://wiki.xivo.fr/index.php/XiVO_1.0-Dalek/Documentation_XiVO_Client "XiVO Client user manual")
+wiki](https://wiki.xivo.io/index.php/XiVO_1.0-Dalek/Documentation_XiVO_Client "XiVO Client user manual")
 (each tab is an XLet).
 
 Each XLet can use the tools available in the XLetlib, that are mainly
@@ -67,9 +67,9 @@ Some links :
 [The XiVO Client git
 repository](http://git.proformatique.com/?p=official/xivo-client-qt.git;a=summary "XiVO Client git repository")  
 [Developer oriented
-documentation](https://wiki.xivo.fr/index.php/XiVO_1.2-Skaro/CTI_XiVO_Client_Qt_Developer "XiVO Client developer documentation")  
+documentation](https://wiki.xivo.io/index.php/XiVO_1.2-Skaro/CTI_XiVO_Client_Qt_Developer "XiVO Client developer documentation")  
 [IRC
-channel](https://wiki.xivo.fr/index.php/Support_Community#IRC "IRC channel infos")
+channel](https://wiki.xivo.io/index.php/Support_Community#IRC "IRC channel infos")
 
 </p>
 

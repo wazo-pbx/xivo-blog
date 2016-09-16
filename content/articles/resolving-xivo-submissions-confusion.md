@@ -113,25 +113,25 @@ should be checked:
 #### checksum errors
 
 The gallifrey and skaro build machines output is a repository created
-with reprepro. It is then mirrored, using reprepro, to mirror.xivo.fr.If
+with reprepro. It is then mirrored, using reprepro, to mirror.xivo.io.If
 the build machines were lost and had to be reinstalled manually, all
 packages would be rebuilt. As a consequence, trying to update the mirror
-on mirror.xivo.fr would lead to checksum errors because both the sources
+on mirror.xivo.io would lead to checksum errors because both the sources
 and binary files would have the same name and different checksum,
 because of the same content has a different checksum after compression,
 either in a **.tar.gz** or in a **.deb** . The only way to recover from
 such a situation would be to :
 
 -   identify all packages that are to be rebuilt by the farm
--   dget from mirror.xivo.fr each of them in
+-   dget from mirror.xivo.io each of them in
     /var/lib/packaging-farm/package
 -   rebuild the gallifrey / skaro meta package
 
 Doing so is, in a nutshell, re-importing the packages saved on
-mirror.xivo.fr back to the build machine, as if it was the result
+mirror.xivo.io back to the build machine, as if it was the result
 created with it. The actual restoration of such a catastrophic event is
 likely to be more complicated in reality. But the general idea is simple
-enough.A more common problem comes from the fact that mirror.xivo.fr is
+enough.A more common problem comes from the fact that mirror.xivo.io is
 a single reprepro repository that is used to merge unrelated
 repositories. For instance gallifrey, gallifrey-dev, skaro, skaro-dev
 and so on. Because reprepro has a single package pool shared between all

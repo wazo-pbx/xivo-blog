@@ -26,7 +26,7 @@ configuration is no longer necessary.
 
 **XiVO Client**: Users can now chat with people on other servers. Before, people using a XiVO Client could only chat
 with users that were on the same server. With version 15.20, people will be able to chat with users on other servers
-when these servers have been [configured to communicate together](http://documentation.xivo.fr/en/stable/scalability_and_distributed_systems/contact_and_presence_sharing.html).
+when these servers have been [configured to communicate together](http://documentation.xivo.io/en/stable/scalability_and_distributed_systems/contact_and_presence_sharing.html).
 
 Technical Features
 ------------------
