@@ -25,7 +25,7 @@ Technical features
 Important bug fixes
 -------------------
 
-**XiVO client**: [Transferee could hear the transferer and the target during a transfer if no music on hold was configured](http://projects.xivo.io/issues/6392).
+**XiVO client**: Transferee could hear the transferer and the target during a transfer if no music on hold was configured. See [issue 6392](http://projects.xivo.io/issues/6392) for more information.
 
 
 Community contributions
