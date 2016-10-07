@@ -11,7 +11,7 @@ Hello XiVO community! Here comes the release of XiVO 16.13!
 New features in this sprint
 ---------------------------
 
-**Provisioning**: Patton gateways SN4110 and SN4300 are now supported for auto-provisioning.
+**Provisioning**: [Patton gateways](http://documentation.xivo.io/en/latest/ecosystem/official_devices.html#patton) SN4110 and SN4300 are now supported for auto-provisioning.
 
 **REST API**: DID configuration (a.k.a Incoming calls) is now available in the REST API of xivo-confd. Until now, it was only possible via the web interface forms. The REST API is now only missing outgoing calls configuration to be able to use SIP trunks.
 
