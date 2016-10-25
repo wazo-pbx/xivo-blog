@@ -11,7 +11,7 @@ Status: published
 As it is, packaging-farm will create packages with names that are not
 dependent on the distribution. It creates a problem that is immediately
 visible when trying to build a repository that includes all the
-packages: the pool can only accomodate for a single package with a given
+packages: the pool can only accommodate for a single package with a given
 name.When building packages for multiple distributions, packaging-farm
 should rename the packages built so that they carry the distribution
 name. The names must compare in the same order as the distribution

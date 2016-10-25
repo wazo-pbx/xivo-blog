@@ -145,7 +145,7 @@ deb-src http://xivo.dachary.org/packaging-farm/gallifrey/gnulinux/debian/i386/le
 
 Although an i386 repository is now available for the XiVO packages which
 solely depend on Debian GNU/Linux lenny, it would be tedious to manually
-arrange the packaging-farm to accomodate for the four level of
+arrange the packaging-farm to accommodate for the four level of
 dependencies. Instead packaging-farm should be modified to handle
 interdepencies of packages. Although it would be possible to arrange for
 the other operations to be supported by a specific tool (for instance
