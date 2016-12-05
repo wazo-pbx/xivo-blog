@@ -33,9 +33,9 @@ What is our vision?
 
 We strongly believe that telephony should be available everywhere: on any device, in any application, in any software environment you have, so that you can call who you want, when you want. In order to achieve this, we want a telephony software that is easy to setup, easy to integrate with other software, scalable and extendable at will.
 
-Free software is in our sense the only way to go in this direction because it ensures that users can adapt Wazo to their own specific situations where telephony is needed, and that they are free to choose who to ask for help. For this, the project needs a strong community and the most important part in this project is cooperation in the community: all the passionate people who use, install and modify Wazo should work together, exchange needs, feature requests, specifications, bug reports, patches and pull requests. Because that is in our sense the best way to improve software.
+Free software is in our sense the only way to go in this direction because it ensures that users can adapt Wazo to their own specific situations where telephony is needed, and that they are free to choose who to ask for help. For this, the project needs a strong community and the most important part in this project is cooperation in the community: all the passionate people who use, install and modify Wazo should work together, exchange needs, feature requests, specifications, bug reports, patches and pull requests. Because that is in our sense the best way to make this project go further.
 
-Be sure that Wazo will keep the spirit of XiVO:
+Be sure that Wazo will keep the spirit of the original XiVO project:
 
 * a totally free software, pure [GNU GPL](https://www.gnu.org/licenses/gpl-3.0.en.html) project,
 * stable release every 3 weeks,

@@ -7,7 +7,7 @@ Status: published
 
 Salut tout le monde, ça fait longtemps!
 
-Nous avons été bien occupés ces derniers jours pour préparer la naissance d'un nouveau projet dans le monde de la communication: nous nous présentons [Wazo](http://www.wazo.community).
+Nous avons été bien occupés ces derniers jours pour préparer la naissance d'un nouveau projet dans le monde de la communication: nous vous présentons [Wazo](http://www.wazo.community).
 
 C'est quoi Wazo?
 ----------------
@@ -30,11 +30,11 @@ L'équipe de développement de Wazo est menée par Sylvain Boily (l'initiateur d
 Quelle est notre vision?
 ------------------------
 
-Nous croyons fermement que la téléphonie devrait être accessible partout: quel que soit l'appareil, l'application, l'environnement logiciel que vous avez, vous devriez pouvoir appeler qui vous voulez, quand vous voulez. Pour accomplir cela, nous voulons un logiciel de téléphonie qui soit facile à mettre en place, facile à intégrer à d'autres logiciels, qui supporte le passage à l'échelle et extensible à volonté.
+Nous croyons fermement que la téléphonie devrait être accessible partout: quel que soit l'appareil, l'application, l'environnement logiciel que vous avez, vous devriez pouvoir appeler qui vous voulez, quand vous voulez. Pour accomplir cela, nous voulons un logiciel de téléphonie qui soit facile à mettre en place, facile à intégrer à d'autres logiciels, scalable et extensible à volonté.
 
-Le logiciel libre est pour nous le seul chemin qui permette d'aller dans cette direction parce qu'il garantit aux utilisateurs qu'ils peuvent adapter Wazo à leur propre situation pour y inclure de la téléphonie, et qu'ils peuvent choisir à qui demander de l'aide pour ce faire. Pour cela, le projet Wazo a besoin d'une communauté active et la part la plus importante du projet est la coopération à l'intérieur de cette communauté: tous les passionnés qui utilisent, installent et modifient Wazo doivent pouvoir travailler ensemble et échanger des besoins, des manques de fonctionnalités, des spécifications, des rapports d'erreurs, des correctifs et des pull requests. C'est la manière qui nous paraît la meilleure pour améliorer un logiciel.
+Le logiciel libre est pour nous le seul chemin qui permette d'aller dans cette direction parce qu'il garantit aux utilisateurs qu'ils peuvent adapter Wazo à leur propre situation pour y inclure de la téléphonie, et qu'ils peuvent choisir à qui demander de l'aide pour ce faire. Pour cela, le projet Wazo a besoin d'une communauté active et la part la plus importante du projet est la coopération à l'intérieur de cette communauté: tous les passionnés qui utilisent, installent et modifient Wazo doivent pouvoir travailler ensemble et échanger des besoins, des idées de fonctionnalités, des spécifications, des rapports d'erreurs, des correctifs et des pull requests. C'est selon nous, le meilleur moyen pour faire avancer ce projet.
 
-Bien sûr, Wazo garde l'esprit de XiVO:
+Bien sûr, Wazo garde l'esprit du projet original XiVO:
 
 * un projet complètement libre en [GNU GPL](https://www.gnu.org/licenses/gpl-3.0.fr.html),
 * une nouvelle version stable toutes les 3 semaines,
