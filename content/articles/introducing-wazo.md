@@ -37,7 +37,7 @@ Free software is in our sense the only way to go in this direction because it en
 
 Be sure that Wazo will keep the spirit of XiVO:
 
-* an totally free software, pure [GNU GPL](https://www.gnu.org/licenses/gpl-3.0.en.html) project,
+* a totally free software, pure [GNU GPL](https://www.gnu.org/licenses/gpl-3.0.en.html) project,
 * stable release every 3 weeks,
 * developers can answer your questions,
 * and the most important, an incredible community on the [forums](http://projects.wazo.community/projects/xivo/boards), IRC (#wazo on Freenode) and [Github](https://github.com/wazo-pbx)
