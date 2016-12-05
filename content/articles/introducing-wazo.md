@@ -6,10 +6,9 @@ Slug: introducing-wazo
 Status: published
 
 
-French/Français: La [version française](#french) suit la version anglaise.
+*French/Français: La [version française](#french) suit la version anglaise.*
 
-English version
-===============
+&nbsp;
 
 Hi everyone, long time no see!
 
@@ -60,6 +59,7 @@ When is our next release due?
 
 We will release Wazo 16.16 very shortly, in the next few days. We will provide a simple procedure to upgrade your XiVO installation to Wazo, we want to keep the transition as smooth as possible. Keep in touch!
 
+&nbsp;
 
 <a name="french"></a>Version française
 ======================================
