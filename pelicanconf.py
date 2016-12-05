@@ -2,12 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'XiVO developers'
-SITENAME = 'XiVO Blog'
-SITEURL = ''
-SITELOGO = 'public/xivo-logo.png'
-FAVICON = SITEURL + '/public/favicon.ico'
-COPYRIGHT_YEAR = '2015-2016'
+AUTHOR = 'The Wazo Authors'
+SITENAME = 'Wazo Blog'
+SITEURL = 'http://blog.wazo.community'
+SITELOGO = 'public/wazo-logo.png'
+COPYRIGHT_YEAR = '2016'
 CC_LICENSE = {'name': 'Create Commons Attribution-ShareAlike',
               'version': '4.0',
               'slug': 'by-sa'}
@@ -20,30 +19,21 @@ TIMEZONE = 'America/Montreal'
 
 DEFAULT_LANG = 'en'
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
 ARTICLE_PATHS = ['articles']
-STATIC_PATHS = ['public', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
+STATIC_PATHS = ['public']
 
 MAIN_MENU = True
 
 # Blogroll
 LINKS = (
-    ('XiVO.io', 'http://xivo.io'),
-    ('Documentation', 'http://documentation.xivo.io'),
+    ('Wazo Website', 'http://wazo.community'),
+    ('Documentation', 'http://documentation.wazo.community'),
 )
 
 # Social widget
 SOCIAL = (
-    ('twitter', 'http://twitter.com/xivodevteam'),
-    ('github', 'http://github.com/xivo-pbx'),
-    ('facebook', 'https://www.facebook.com/XiVO-86529730831'),
+    ('twitter', 'http://twitter.com/wazocommunity'),
+    ('github', 'http://github.com/wazo-pbx'),
 )
 
 MENUITEMS = (
