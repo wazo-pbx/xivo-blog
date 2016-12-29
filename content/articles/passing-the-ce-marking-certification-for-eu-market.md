@@ -30,7 +30,7 @@ following equipments :**
 
 -   Semi anechoic chamber (11,8x8,1x9,5m) SIEPEL C01
 -   Bilog antenna SHWARZBECK VULB9160
--   EMI receiver RHODE&SCHWARZ ESI40
+-   EMI receiver RHODE&amp;SCHWARZ ESI40
 -   Pré-amplifier BONN 3018-8F30S
 -   Horn antenna ETS 3115
 
