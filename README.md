@@ -1,7 +1,7 @@
-XiVO blog
+Wazo blog
 =========
 
-This repository contains the sources for XiVO's blog hosted at http://blog.xivo.io.  The XiVO dev
+This repository contains the sources for Wazo's blog hosted at http://blog.wazo.community. The Wazo dev
 team welcomes anyone who would like to write and contribute articles to our blog. You can submit
 your articles by sending us a [pull request](https://help.github.com/articles/using-pull-requests)
 
@@ -24,8 +24,8 @@ following metadata at the beginning of the file:
     Title: My super duper article
     Date: 2015-10-16 12:00:00
     Author: John Smith
-    Category: XiVO IPBX
-    Tags: XiVO, development
+    Category: Wazo IPBX
+    Tags: wazo, development
     Slug: my-super-duper-article
     Status: draft
 

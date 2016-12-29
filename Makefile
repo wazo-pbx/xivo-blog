@@ -26,7 +26,7 @@ CLOUDFILES_CONTAINER=my_cloudfiles_container
 DROPBOX_DIR=~/Dropbox/Public/
 
 GITHUB_PAGES_BRANCH=gh-pages
-GITHUB_BLOG_REPO=git@github.com:xivo-pbx/xivo-pbx.github.io.git
+GITHUB_BLOG_REPO=git@github.com:wazo-pbx/wazo-pbx.github.io.git
 GITHUB_PUBLISH_BRANCH=master
 
 DEBUG ?= 0
