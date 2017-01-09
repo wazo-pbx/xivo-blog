@@ -8,7 +8,7 @@ Status: published
 
 Hello Wazo community! Here comes the release of Wazo 17.01!
 
-We took a bit of extra time to release this version, due to the holidays here in Québec City. So this version took 4 weeks to release, but versions to come will be released every 3 weeks.
+We took a bit of extra time to release this version, due to the holidays here in Québec City. So this version took 4 weeks to release, but upcoming versions will be released every 3 weeks.
 
 New features in this sprint
 ---------------------------
@@ -17,7 +17,7 @@ New features in this sprint
 
 **REST API**: We added another REST API for paging groups. This API offers about the same features than the web interface, allowing you to use a group of phones as PA speakers.
 
-**REST API**: A new REST API has been added in order to place a new call from the mobile phone of a user. This will come in handy for a mobile application, where you can search a contact and call her by clicking a button. Your mobile phone will be called by Wazo and once you answer you we hear your contact ringing. This means your mobile operator will charge an inbound call to your mobile phone instead of an outbound call.
+**REST API**: A new REST API has been added in order to place a new call from the mobile phone of a user. This will come in handy for a mobile application, where you can call a contact by clicking a button. Your mobile phone will be called by Wazo and once you answer you will hear your contact ringing. This means your mobile operator will charge an inbound call to your mobile phone instead of an outbound call.
 
 Technical features
 ------------------
