@@ -44,5 +44,7 @@ MENUITEMS = (
 DEFAULT_PAGINATION = 5
 GOOGLE_ANALYTICS = 'UA-56722061-3'
 
+FEED_MAX_ITEMS = 30
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
