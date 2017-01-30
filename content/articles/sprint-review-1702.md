@@ -8,12 +8,12 @@ Status: published
 
 Hello Wazo community! Here comes the release of Wazo 17.02!
 
-We're back to our usual 3-week release cycle :)
+We're back to our usual 3-weeks release cycle :)
 
 New features in this sprint
 ---------------------------
 
-**API schedules**: Schedules may now be managed via REST API. Schedules allow calls to be redirected to other destinations depending on the time and day that they arrive. For example during holidays, calls would be redirected to a voicemail instead of ringing a phone nobody would answer.
+**API schedules**: Schedules may now be managed via REST API. Schedules allow calls to be redirected to other destinations depending on the time and day that they arrive. For example during holidays, calls could be redirected to a voicemail instead of ringing a phone nobody would answer.
 
 **WebRTC lines**: The web interface now allows associating "WebRTC lines" to users. WebRTC is a recent feature of browsers that makes it possible to have a web softphone: you don't _need_ a specific application to handle your calls, instead you can answer, talk and hangup directly on a web page. The "WebRTC line" creates a SIP line with a bunch of predefined parameters that are required to be able to use this SIP line in a WebRTC application, so it will appear as a SIP line afterwards.
 
@@ -34,4 +34,4 @@ Sources:
 
 * [Upgrade notes](http://documentation.wazo.community/en/wazo-17.02/upgrade/upgrade.html#upgrade-notes)
 * [xivo-confd REST API Changelog](http://documentation.wazo.community/en/wazo-17.02/api_sdk/rest_api/confd/changelog.html)
-* [Wazo 17.01 Roadmap](http://projects.wazo.community/versions/254)
+* [Wazo 17.02 Roadmap](https://projects.wazo.community/versions/254)
