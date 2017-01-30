@@ -15,7 +15,7 @@ New features in this sprint
 
 **API schedules**: Schedules may now be managed via REST API. Schedules allow calls to be redirected to other destinations depending on the time and day that they arrive. For example during holidays, calls could be redirected to a voicemail instead of ringing a phone nobody would answer.
 
-**WebRTC lines**: The web interface now allows associating "WebRTC lines" to users. WebRTC is a recent feature of browsers that makes it possible to have a web softphone: you don't _need_ a specific application to handle your calls, instead you can answer, talk and hangup directly on a web page. You can try out WebRTC with Wazo on https://phone.wazo.community. The "WebRTC line" actually creates a SIP line with a bunch of predefined parameters that are required to be able to use this SIP line in a WebRTC application, so it will appear as a SIP line afterwards.
+**WebRTC lines**: The web interface now allows associating "WebRTC lines" to users. WebRTC is a recent feature of browsers that makes it possible to have a web softphone: you don't _need_ a specific application to handle your calls, instead you can answer, talk and hangup directly on a web page. You can try out WebRTC with Wazo on [https://phone.wazo.community](https://phone.wazo.community). The "WebRTC line" actually creates a SIP line with a bunch of predefined parameters that are required to be able to use this SIP line in a WebRTC application, so it will appear as a SIP line afterwards.
 
 Ongoing features
 ----------------
