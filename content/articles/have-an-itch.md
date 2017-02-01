@@ -30,7 +30,7 @@ to see how we can work together and contribute to the future of Wazo.
 No taboos, everything can be discussed...
 
 Join us on the [forum](https://projects.wazo.community/boards/1/topics/8911)
-or in private: dev.wazo@gmail.com
+or in private: contact@wazo.community
 
 
 Votre système de communication vous rend la vie dure ?
@@ -58,4 +58,4 @@ pour contribuer au future de Wazo.
 Il n'y a pas de tabous, tous les sujets peuvent êtres abordés...
 
 Joignez-nous sur le [forum](https://projects.wazo.community/boards/8/topics/8915)
-ou en privé: dev.wazo@gmail.com
+ou en privé: contact@wazo.community
