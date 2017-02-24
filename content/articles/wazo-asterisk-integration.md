@@ -1,4 +1,4 @@
-Title: How to configure Asterisk when Wazo does not implement a functionnality
+Title: How to configure Asterisk when Wazo does not implement a functionality
 Date: 2017-02-22
 Author: The Wazo Authors
 Category: Wazo IPBX
@@ -8,9 +8,9 @@ Status: published
 
 # Customizing your Asterisk configuration on Wazo
 
-Wazo is a full featured IPBX using Asterisk. It has many functionnalities implemented
+Wazo is a full featured IPBX using Asterisk. It has many functionalities implemented
 in its configuration interface and many API to configure your telephony system. But
-sometime what you need is simply missing. This article will show some common ways to
+sometimes what you need is simply missing. This article will show some common ways to
 modify your Wazo server to use features from Asterisk that are not available in the
 wide range of Wazo tools.
 
@@ -38,9 +38,9 @@ subroutines and debug call flow problems.
 
 ### Subroutines
 
-Most ressource on a Wazo can execute a dialplan subroutine before being reached.
-This allow the administrator to add custom dialplan before calling the Asterisk
-application.
+Most resources (a group, a user, a conference room, etc.) on a Wazo can execute
+a dialplan subroutine before being reached. This allows the administrator to add
+custom dialplan before calling the Asterisk application.
 
 For example:
 
@@ -52,8 +52,8 @@ exten = s,1,SIPAddHeader(Alert-Info: info=alert-autoanswer)
 same = n,Return()
 ```
 
-If a user has the `aastra-autoanswer` subroutine, its phone will be automatically
-answered when it starts ringing.
+If a user has the `aastra-autoanswer` subroutine, his phone will answer
+automatically, instead of ringing.
 
 ![User preprocess subroutine](/public/wazo-asterisk-integration/subroutine.png)
 
@@ -94,18 +94,17 @@ This example adds or modify the options `accept_outofcall_message` and
 `outofcall_message_context` in the `general` section of the `sip.conf` file.
 
 Note that these changes will have to be redone at each upgrade modifying the
-configuration file. The old version will be kept in a file with the same name
-with .dpkg-old appended.
+configuration file. The old version will be kept in a `.dpkg-old` file:
 
 ```sh
-# ls sip.conf*
+> ls /etc/asterisk/sip.conf*
 sip.conf  sip.conf.dpkg-old
 ```
 
 Some configuration files also include another directory that should be used
-when available.
+when available, e.g.:
 
-manager.conf
+`/etc/asterisk/manager.conf`
 
 ```ini
 [general]
@@ -120,6 +119,6 @@ bindaddr = 0.0.0.0
 All files in `/etc/asterisk/manager.d/` will be read when reloading the
 configuration and these files will not be modified during an upgrade.
 
-If you do these kinds of customizations on your own. Make sure you sure the wazo
-upgrade notes when upgrading to be able to make the appropriate changes when
-necessary.
+If you do these kinds of customizations on your own, make sure you read the Wazo
+upgrade notes before upgrading: major updates of Asterisk can break your custom
+configuration if you're not careful.
