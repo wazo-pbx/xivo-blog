@@ -120,7 +120,9 @@ All files in `/etc/asterisk/manager.d/` will be read when reloading the
 configuration and these files will not be modified during an upgrade.
 
 Here's a summary of what happens when Asterisk starts, and what configuration
-files will be read on Wazo:
+files will be read on Wazo. Thanks to J Az from the
+[Wazo forum](http://projects.wazo.community/projects/xivo/boards) for this
+diagram!
 
 ![Asterisk configuration read flow](/public/wazo-asterisk-integration/asterisk-read-config.svg)
 
