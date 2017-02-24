@@ -119,6 +119,11 @@ bindaddr = 0.0.0.0
 All files in `/etc/asterisk/manager.d/` will be read when reloading the
 configuration and these files will not be modified during an upgrade.
 
+Here's a summary of what happens when Asterisk starts, and what configuration
+files will be read on Wazo:
+
+![Asterisk configuration read flow](/public/wazo-asterisk-integration/asterisk-read-config.svg)
+
 If you do these kinds of customizations on your own, make sure you read the Wazo
 upgrade notes before upgrading: major updates of Asterisk can break your custom
 configuration if you're not careful.
