@@ -11,7 +11,7 @@ Hello Wazo community! Here comes the release of Wazo 17.04!
 New features in this sprint
 ---------------------------
 
-**CSV import of a phonebook**: The CSV import has been removed from the web interface when we allowed many phonebooks to be available on the same Wazo. Many administrators have reported that they used that feature for there end users. You told us and we heard you. The CSV import is back.
+**CSV import of a phonebook**: The CSV import had been removed from the web interface when we allowed many phonebooks to be available on the same Wazo. Many administrators have reported that they used that feature for their end users. You told us and we heard you. The CSV import is back.
 
 Technical features
 ------------------
