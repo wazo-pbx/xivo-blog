@@ -31,6 +31,8 @@ Ongoing features
 
 ---
 
+The instructions for [installing Wazo](http://documentation.wazo.community/en/stable/installation/installsystem.html) or [upgrading Wazo](http://documentation.wazo.community/en/stable/upgrade/upgrade.html) are available in the documentation.
+
 See you at the next sprint review!
 
 Sources:
