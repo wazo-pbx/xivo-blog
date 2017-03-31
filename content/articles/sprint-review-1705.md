@@ -24,7 +24,7 @@ Contributions
 
 **Translations**: we thank Rafał Perczyński and Ania Perczyńska for making polish sound files available in the web interface and translating the CTI client interface in polish with [Transifex](https://www.transifex.com/wazo/wazo/). The CTI client translations will be shipped in a future version.
 
-**Yealink firware**: we thank Damien Barbier for submitting a new firmware for Yealink phones. The provisioning plugin for firmware v81 is now available.
+**Yealink firware**: we thank Damien Barbier for submitting a new firmware for Yealink phones. The provisioning plugin for firmware v81 is now available in the [testing](http://documentation.wazo.community/en/latest/administration/provisioning/basic_configuration.html#alternative-plugins-repo) plugins repository.
 
 Ongoing features
 ----------------
