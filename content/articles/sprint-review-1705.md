@@ -11,7 +11,11 @@ Hello Wazo community! Here comes the release of Wazo 17.05!
 New features in this sprint
 ---------------------------
 
-**REST API**: We added the possibility to pause/unpause an agent from the REST API of xivo-agentd. An agent in pause does not receive any more calls distributed from the call queues. Until now, agents could only enter the pause through the CTI client. As always, REST API allow us to make features available for different graphical interfaces, such a web interface in a browser.
+**Call recording**: We added some configuration options to control the naming of the call recordings. This allows administrators to dispatch recording files more easily between entities. You can read all about it [in the documenation](http://documentation.wazo.community/en/latest/administration/call_recording/call_recording.html#file-names).
+
+**REST API**: We added the possibility to pause/unpause an agent from the REST API of xivo-agentd. An agent in pause does not receive any more calls distributed from the call queues. Until now, agents could only enter the pause through the CTI client. Also, it is now possible to specify the reason for the pause. This allows supervisors to have a better understanding of the agents availability. You can see this new feature in action in [Unicom](https://phone.wazo.community).
+
+**REST API**: The ``calls`` API in xivo-ctid-ng has been improved to reflect the direction of each call: a graphical interface such as [Unicom](https://phone.wazo.community) may now display if the call is received or sent.
 
 Contributions
 -------------
@@ -19,6 +23,8 @@ Contributions
 **Web interface**: we thank Paolo Ornati for submitting a patch fixing a bug in the list of phonebooks in the web interface.
 
 **Translations**: we thank Rafał Perczyński and Ania Perczyńska for making polish sound files available in the web interface and translating the CTI client interface in polish with [Transifex](https://www.transifex.com/wazo/wazo/). The CTI client translations will be shipped in a future version.
+
+**Yealink firware**: we thank Damien Barbier for submitting a new firmware for Yealink phones. The provisioning plugin for firmware v81 is now available.
 
 Ongoing features
 ----------------
