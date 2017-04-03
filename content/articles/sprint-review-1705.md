@@ -22,7 +22,7 @@ Important bug fixes
 
 **Database**: One of Wazo services (xivo-dird) was not closing the connections to the database. It blocked other services from accessing the database in some circumstances. Ticket reference: [#6607](https://projects.wazo.community/issues/6607)
 
-**Switchboard**: Transfers made via the Wazo switchboard had a performance issue that would take up all CPU of the machine after a few transfers, causing other issues as a result. Ticket reference: [#6628](https://projects.wazo.community/issues/6628)
+**CTI Client**: Transfers made via the client had a performance issue that would take up all CPU of the machine after a few transfers, causing other issues as a result. Ticket reference: [#6628](https://projects.wazo.community/issues/6628)
 
 Contributions
 -------------
