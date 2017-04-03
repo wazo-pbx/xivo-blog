@@ -17,6 +17,13 @@ New features in this sprint
 
 **REST API**: The ``calls`` API in xivo-ctid-ng has been improved to reflect the direction of each call: a graphical interface such as [Unicom](https://phone.wazo.community) may now display if the call is received or sent.
 
+Important bug fixes
+-------------------
+
+**Database**: one of Wazo services (xivo-dird) was not closing the connections to the database. It blocked other services from accessing the database in some circumstances. Ticket reference: [#6607](https://projects.wazo.community/issues/6607)
+
+**Switchboard**: transfers made via the Wazo switchboard had a performance issue that would take up all CPU of the machine after a few transfers, causing other issues as a result. Ticket reference: [#6628](https://projects.wazo.community/issues/6628)
+
 Contributions
 -------------
 
