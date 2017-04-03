@@ -20,18 +20,18 @@ New features in this sprint
 Important bug fixes
 -------------------
 
-**Database**: one of Wazo services (xivo-dird) was not closing the connections to the database. It blocked other services from accessing the database in some circumstances. Ticket reference: [#6607](https://projects.wazo.community/issues/6607)
+**Database**: One of Wazo services (xivo-dird) was not closing the connections to the database. It blocked other services from accessing the database in some circumstances. Ticket reference: [#6607](https://projects.wazo.community/issues/6607)
 
-**Switchboard**: transfers made via the Wazo switchboard had a performance issue that would take up all CPU of the machine after a few transfers, causing other issues as a result. Ticket reference: [#6628](https://projects.wazo.community/issues/6628)
+**Switchboard**: Transfers made via the Wazo switchboard had a performance issue that would take up all CPU of the machine after a few transfers, causing other issues as a result. Ticket reference: [#6628](https://projects.wazo.community/issues/6628)
 
 Contributions
 -------------
 
-**Web interface**: we thank Paolo Ornati for submitting a patch fixing a bug in the list of phonebooks in the web interface.
+**Web interface**: We thank Paolo Ornati for submitting a patch fixing a bug in the list of phonebooks in the web interface.
 
-**Translations**: we thank Rafał Perczyński and Ania Perczyńska for making polish sound files available in the web interface and translating the CTI client interface in polish with [Transifex](https://www.transifex.com/wazo/wazo/). The CTI client translations will be shipped in a future version.
+**Translations**: We thank Rafał Perczyński and Ania Perczyńska for making polish sound files available in the web interface and translating the CTI client interface in polish with [Transifex](https://www.transifex.com/wazo/wazo/). The CTI client translations will be shipped in a future version.
 
-**Yealink firware**: we thank Damien Barbier for submitting a new firmware for Yealink phones. The provisioning plugin for firmware v81 is now available in the [testing](http://documentation.wazo.community/en/latest/administration/provisioning/basic_configuration.html#alternative-plugins-repo) plugins repository.
+**Yealink firware**: We thank Damien Barbier for submitting a new firmware for Yealink phones. The provisioning plugin for firmware v81 is now available in the [testing](http://documentation.wazo.community/en/latest/administration/provisioning/basic_configuration.html#alternative-plugins-repo) plugins repository.
 
 Ongoing features
 ----------------
