@@ -11,7 +11,7 @@ Hello Wazo community! Here comes the release of Wazo 17.05!
 New features in this sprint
 ---------------------------
 
-**Call recording**: We added some configuration options to control the naming of the call recordings. This allows administrators to dispatch recording files more easily between entities. You can read all about it [in the documenation](http://documentation.wazo.community/en/latest/administration/call_recording/call_recording.html#file-names).
+**Call recording**: We added some configuration options to control the naming of the call recordings. This allows administrators to dispatch recording files more easily between entities. You can read all about it [in the documentation](http://documentation.wazo.community/en/latest/administration/call_recording/call_recording.html#file-names).
 
 **REST API**: We added the possibility to pause/unpause an agent from the REST API of xivo-agentd. An agent in pause does not receive any more calls distributed from the call queues. Until now, agents could only enter the pause through the CTI client. Also, it is now possible to specify the reason for the pause. This allows supervisors to have a better understanding of the agents availability. You can see this new feature in action in [Unicom](https://phone.wazo.community).
 
