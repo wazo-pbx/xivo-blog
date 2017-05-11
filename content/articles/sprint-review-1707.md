@@ -33,7 +33,7 @@ Ongoing features
 
 **Call logs**: We are attaching more data to the call logs and generating new views to have a summary for a given query instead of a list of call logs.
 
-**New web interface**: This web interface will only use the REST API we've been developing in the past few years, with no brittle complicated internal logic like the current web interface has: all the logic is handled by the REST APIs. This web interface will not replace the current web interface before it has all the same features, so it will take time to become the default interface. However, both web interfaces will coexist during the maturation of the new one. We'll keep you posted when the new web interface becomes usable.
+**Admin UI**: We are working to improve the new web interface.
 
 **Plugin management**: There is still alot to be done to the plugin management service. e.g. dependency, upgrade, wazo version constraints, ..
 
