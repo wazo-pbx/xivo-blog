@@ -35,7 +35,7 @@ Ongoing features
 
 **Admin UI**: We are working to improve the new web interface.
 
-**Plugin management**: There is still alot to be done to the plugin management service. e.g. dependency, upgrade, wazo version constraints, ..
+**Plugin management**: There is still a lot to be done to the plugin management service. e.g. dependency, upgrade, wazo version constraint, ..
 
 
 ---
