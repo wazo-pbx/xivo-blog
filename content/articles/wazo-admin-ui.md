@@ -77,7 +77,7 @@ The new admin interface is not yet ready to completely replace the current admin
     * Conference
     * Parking Lots
 
-- You should not use any plugin without the Extensions and Contexts plugins, because you will be missing very useful guides for selecting valid extensions and contexts.
+- You should not use any plugin without the Extensions and Contexts plugins, because you will be missing very useful guides for selecting valid extensions and contexts. Dependencies between plugins should be added.
 - Parking lots will not show any already configured parking, because the underlying system is totally different. A future automatic migration should take care of this.
 - The switchboard plugin will not show any already configured switchboard, because the underlying system is totally different. And there is no working operator interface for those kinds of switchboards as of yet.
 - The Outcalls and Trunks plugins are not yet usable.
