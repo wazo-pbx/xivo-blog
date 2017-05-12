@@ -9,7 +9,7 @@ Wazo 17.07 is the first release embedding the future replacement of the administ
 
 The current admin interface of Wazo is aging, and its internal design is significantly slowing down the development of other components. We've been extracting logic from this admin interface in the last years into REST APIs, and we're now confident enough that we can start a much lighter version of the admin interface, entirely supported by the REST APIs.
 
-So, you can try this admin interface by visiting `https://wazo.example.com/admin`.
+So, you can try this admin interface by visiting `https://<wazo_ip>/admin`.
 
 # Login
 
@@ -49,13 +49,13 @@ Another feature request we've heard often is a graphical form to create simple I
 
 ## Parking lots
 
-Parking lots is the same feature as the previous parking: put an incoming call on hold in a defined extension, so that someone else can pick up the incoming call later. Except that we can nom have multiple ranges of extensions: there was previously only one range (default was 701-749), and we can now create multiple ranges.
+Parking lots is the same feature as the previous parking: put an incoming call on hold in a defined extension, so that someone else can pick up the incoming call later. Except that we can now have multiple ranges of extensions: there was previously only one range (default was 701-749), and we can now create multiple ranges.
 
 ![parking_lot-edit.png](/public/wazo-admin-ui/parking_lot-edit.png "Parking Lot Screenshot")
 
 ## CDR
 
-The current interface is really unsufficient for reading call logs: there was only a small CSV file with very few details that is quite hard to query, when looking for a specific call. The CDR plugin brings a clearer view of call logs.
+The current interface is really insufficient for reading call logs: there was only a small CSV file with very few details that is quite hard to query, when looking for a specific call. The CDR plugin brings a clearer view of call logs.
 
 ![cdr.png](/public/wazo-admin-ui/cdr.png "CDR screenshot")
 
@@ -79,4 +79,4 @@ The new admin interface is not yet ready to completely replace the current admin
 # Technicals
 
 The new admin interface is built with Python, Flask, WTForms, Admin-LTE, Bootstrap.
-The plugin system uses the underlying Debian package system, that offers some garanties about consistency and conflict detection.
+The plugin system uses the underlying Debian package system, that offers some guarantees about consistency and conflict detection.
