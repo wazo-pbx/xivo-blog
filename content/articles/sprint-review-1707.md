@@ -25,7 +25,7 @@ New features in this sprint
 
 **REST API**: We have added a new REST API to manage wazo plugins using wazo-plugind. This new API is used by the administration UI to install and enable features.
 
-**REST API**: CDR can now be queried by user.
+**REST API**: CDR can now be queried by user to get its own call logs.
 
 
 Ongoing features
