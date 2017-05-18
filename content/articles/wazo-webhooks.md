@@ -5,9 +5,9 @@ Category: Wazo
 Slug: wazo-webhook
 Status: published
 
-Depuis plusieurs mois nous travaillons activement pour améliorer Wazo et le rendre le plus ouvert possible. La dernière version 17.07 apporte une vision sur nos derniers travaux et sur ce que nous développons actuellement autour de Wazo. Une nouvelle interface web basée sur nos APIs REST, une place de marché pour permettre d'étendre Wazo facilement, des nouvelles fonctionnalités comme les menus vocaux, les lignes multiples pour un utilisateur, etc.
+Depuis plusieurs mois nous travaillons activement pour améliorer Wazo et le rendre le plus ouvert possible. La dernière version 17.07 mets en lumière nos derniers travaux et nos développements actuels autour de Wazo.  Vous découvrirez ainsi : une nouvelle interface web basée sur nos APIs REST, une place de marché pour permettre d'étendre Wazo facilement, des nouvelles fonctionnalités comme les menus vocaux, les lignes multiples pour un utilisateur, etc.
 
-Mais nous avons encore quelques surprises pour vous pour les prochains mois, et je vais vous présenter mes derniers travaux autour de Wazo. L'objectif de Wazo étant de permettre de créer une véritable plateforme de téléphonie à votre image, vous permettant ainsi de construire votre système téléphonique sur mesure et simplement. Il apparaît alors qu'une interconnexion avec une plateforme vous permettant de vous connecter avec plus de 600 autres produits dans le marché semblait très intéressante.
+Mais nous avons encore quelques surprises pour vous au cours des prochains mois ! Avec en tête l'objectif de créer une plateforme de téléphonie à votre image, vous permettant de construire votre système sur mesure, il nous est apparu nécessaire de développer un outil rendant possible l' interconnexion avec une plateforme proposant  plus de 600 autres produits intéressants sur le marché. J'ai donc commencé travailler sur un connecteur vers une plateforme appelée Zapier. Pour ceux qui ne connaissent pas rendez-vous directement sur leur site web et créez-vous un compte pour tester, c'est gratuit.
 
 J'ai donc commencé un travail d'un connecteur sur une plateforme appelée Zapier. Pour ceux qui ne connaissent pas rendez-vous directement sur leur [site web](http://zapier.com) et créez vous un compte pour tester, c'est gratuit.
 
@@ -15,7 +15,13 @@ J'ai donc commencé un travail d'un connecteur sur une plateforme appelée Zapie
 
 # Zapier
 
-Zapier est une plateforme cloud, avec des centaines de connecteurs vous permettant de faire 3 choses. La première étant un "trigger", c'est à dire une action à un temps donné. Exemple avec le cas de Wazo, récupère moi mes derniers journaux d'appel. Une petite particularité dans Zapier, c'est qu'un trigger est exécuté par défaut toutes les 5 ou 15 minutes selon votre type de compte. Bien sur il existe aussi un autre type de "trigger" appel "instant trigger" qui lui permet de recevoir un évènement. Le mécanisme de Zapier est appelé REST hooks et ils ont fait un site web pour en expliquer leur vision. (http://www.resthooks.com)
+Zapier est une plateforme cloud, avec des centaines de connecteurs vous permettant de faire 3 choses.
+
+- Un "trigger"
+- Une action
+- Un "search" (qui est une action aussi)
+
+Le "trigger" est une action à un temps donné. Exemple avec le cas de Wazo, récupère moi mes derniers journaux d'appel. Une petite particularité dans Zapier, c'est qu'un trigger est exécuté par défaut toutes les 5 ou 15 minutes selon votre type de compte. Bien sur il existe aussi un autre type de "trigger" appel "instant trigger" qui lui permet de recevoir un évènement. Le mécanisme de Zapier est appelé REST hooks et ils ont fait un site web pour en expliquer leur vision. (http://www.resthooks.com)
 
 Un fois que vous avez choisi votre "trigger", zapier vous offre la possibilité avec le résultat d'en faire une action. Les applications Zapier doivent donc offrir un mécanisme de "IN" et de "OUT". Prenons toujours notre exemple avec Wazo, mon "IN" sera donc un trigger de mes journaux d'appels et mon "OUT" sera par exemple une action pour envoyer mes données vers une feuille de calcul Google Sheets.
 
