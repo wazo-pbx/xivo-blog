@@ -5,7 +5,7 @@ Category: Wazo
 Slug: wazo-webhook
 Status: published
 
-Depuis plusieurs mois nous travaillons activement pour améliorer Wazo et le rendre le plus ouvert possible. La dernière version 17.07 apporte une vision sur nos derniers travaux et sur ce que nous développons actuellement autour de Wazo. Une nouvelle interface web basée sur nos APIs REST, une place de marché pour permettre d'étendre Wazo facilement, des nouvelles fonctionnalités comme les menus vocaux, les lignes multiples pour un utilisateur ...
+Depuis plusieurs mois nous travaillons activement pour améliorer Wazo et le rendre le plus ouvert possible. La dernière version 17.07 apporte une vision sur nos derniers travaux et sur ce que nous développons actuellement autour de Wazo. Une nouvelle interface web basée sur nos APIs REST, une place de marché pour permettre d'étendre Wazo facilement, des nouvelles fonctionnalités comme les menus vocaux, les lignes multiples pour un utilisateur, etc.
 
 Mais nous avons encore quelques surprises pour vous pour les prochains mois, et je vais vous présenter mes derniers travaux autour de Wazo. L'objectif de Wazo étant de permettre de créer une véritable plateforme de téléphonie à votre image, vous permettant ainsi de construire votre système téléphonique sur mesure et simplement. Il apparaît alors qu'une interconnexion avec une plateforme vous permettant de vous connecter avec plus de 600 autres produits dans le marché semblait très intéressante.
 
@@ -15,13 +15,13 @@ J'ai donc commencé un travail d'un connecteur sur une plateforme appelée Zapie
 
 # Zapier
 
-Zapier est une plateforme cloud, avec des centaines de connecteurs vous permettant de faire 3 choses. La première étant un "trigger", c'est à dire une action à un temps donné. Exemple avec le cas de Wazo, récupère moi mes derniers journaux d'appel. Une petite particularité dans Zapier, c'est qu'un trigger est executé par défaut toutes les 5 ou 15 minutes selon votre type de compte. Bien sur il existe aussi un autre type de "trigger" appel "instant trigger" qui lui permet de recevoir un évenement. Le mécanisme de Zapier est appelé REST hooks et ils ont fait un site web pour en expliquer leur vision. (http://www.resthooks.com)
+Zapier est une plateforme cloud, avec des centaines de connecteurs vous permettant de faire 3 choses. La première étant un "trigger", c'est à dire une action à un temps donné. Exemple avec le cas de Wazo, récupère moi mes derniers journaux d'appel. Une petite particularité dans Zapier, c'est qu'un trigger est exécuté par défaut toutes les 5 ou 15 minutes selon votre type de compte. Bien sur il existe aussi un autre type de "trigger" appel "instant trigger" qui lui permet de recevoir un évènement. Le mécanisme de Zapier est appelé REST hooks et ils ont fait un site web pour en expliquer leur vision. (http://www.resthooks.com)
 
 Un fois que vous avez choisi votre "trigger", zapier vous offre la possibilité avec le résultat d'en faire une action. Les applications Zapier doivent donc offrir un mécanisme de "IN" et de "OUT". Prenons toujours notre exemple avec Wazo, mon "IN" sera donc un trigger de mes journaux d'appels et mon "OUT" sera par exemple une action pour envoyer mes données vers une feuille de calcul Google Sheets.
 
 Le fonctionnement sera alors le suivant, toutes les X minutes, Zapier fera une requête sur mon Wazo, si j'ai eu de nouvelles entrées alors Zapier les enverra sur ma feuille Google. Simple non ?
 
-Donc comment cela se configure ? Premièrement vous devez avoir une compte sur la plateforme zapier, vous allez simplement cliquer sur "MAKE A ZAP" puis vous aller choisir votre application "IN", c'est à dire votre "trigger".
+Donc comment cela se configure ? Premièrement vous devez avoir une compte sur la plateforme Zapier, vous allez simplement cliquer sur "MAKE A ZAP" puis vous aller choisir votre application "IN", c'est à dire votre "trigger".
 
 ![zapier-trigger.png](/public/wazo-webhook/zapier-trigger.png "Zapier trigger")
 
@@ -29,11 +29,11 @@ Une fois votre choix fait, vous allez simplement choisir les "triggers" disponib
 
 ![zapier-trigger-choice.png](/public/wazo-webhook/zapier-trigger-choice.png "Zapier trigger choice")
 
-Puis vous allez créer un compte de connexion entre Zapier et votre Wazo. Attention, un prérequis important votre Wazo doit être accessible par Zapier sur le port 443 pour accèder aux APIs de Wazo.
+Puis vous allez créer un compte de connexion entre Zapier et votre Wazo. Attention, un prérequis important votre Wazo doit être accessible par Zapier sur le port 443 pour accéder aux APIs de Wazo.
 
 ![zapier-account.png](/public/wazo-webhook/zapier-account.png "Zapier account")
 
-Une fois votre connexion établi vous n'aurez plus qu'a choisir votre application "OUT", c'est à dire l'action souhaitée. A partir du moment où votre "ZAP" est créé vous n'avez plus rien à faire, Zapier et Wazo travaillerons ensemble et automatiserons votre export. Bien sûr ceci est simplement un exemple, je vous laisserai parcourir les centaines d'applications et trouver ce qui vous intéresse le plus.
+Une fois votre connexion établi vous n'aurez plus qu'à choisir votre application "OUT", c'est à dire l'action souhaitée. À partir du moment où votre "ZAP" est créé vous n'avez plus rien à faire, Zapier et Wazo travaillerons ensemble et automatiserons votre export. Bien sûr ceci est simplement un exemple, je vous laisse parcourir les centaines d'applications et trouver ce qui vous intéresse le plus.
 
 Il est aussi intéressant d'avoir d'autre ouverture possible. Cela m'a amené à développer un nouveau service dans Wazo permettant cette ouverture vers de nombreuses applications. Mon prochain exemple sera basé sur un logiciel libre qui monte et se présentant comme une véritable alternative à SLACK qui est une plateforme de communication temps réel (un irc plus évolué), appelé Mattermost. Il en existe probablement d'autres, mais nous utilisons Mattermost en interne depuis un long moment et donc nous connaissons mieux ce logiciel.
 
@@ -43,7 +43,7 @@ Si vous souhaitez avoir plus d'informations sur Mattermost, je vous invite à co
 
 ![mattermost.png](/public/wazo-webhook/mattermost.png "Mattermost screenshot")
 
-Mattermost offre la possibilité comme dans SLACK de faire des webhook de type "IN" ou "OUT", ça ressemble à Zapier un peu ;). Le webhook de type "IN" est simplement une interface http où l'on va envoyer un message en format JSON. C'est assez basique, mais très simple à mettre en oeuvre.
+Mattermost offre la possibilité comme dans SLACK de faire des webhook de type "IN" ou "OUT", ça ressemble à Zapier un peu ;). Le webhook de type "IN" est simplement une interface HTTP où l'on va envoyer un message en format JSON. C'est assez basique, mais très simple à mettre en oeuvre.
 
 Pour ce faire, il suffit d'aller dans la console de Mattermost, de choisir "intégrations" et de créer un webhook de type incoming. Vous choisirez alors le canal où vous souhaitez recevoir le message.
 
@@ -68,17 +68,17 @@ Dans le cas de Wazo, voici à quoi cela va ressembler.
 
 ![wazo-webhook.png](/public/wazo-webhook/wazo-webhook.png "Wazo webhook")
 
-Comment cela fonctionne ? Nous avons pris l'habitude depuis plusieurs années d'envoyer un évenement dans notre bus (basé sur rabbitmq) à chaque évenement. Ce qui veut dire par exemple que quand on reçoit un appel sur son téléphone, nous avons un évenement qui est envoyé dans le bus avec comme nom "call_created".
+Comment cela fonctionne ? Nous avons pris l'habitude depuis plusieurs années d'envoyer un évènement dans notre bus (basé sur RabbitMQ) à chaque évènement. Ce qui veut dire par exemple que lorsqu'on reçoit un appel sur son téléphone, nous avons un évènement qui est envoyé dans le bus avec comme nom "call_created".
 
 Voici une idée d'exemple concret avec Mattermost et Wazo. Je souhaite recevoir sur un channel, l'information que mon téléphone sonne. Pour le mettre en oeuvre, il suffira alors.
 
 - Créer un webhook de type incoming sur Mattermost vers un canal défini.
 - Récupérer l'adresse de ce webhook.
-- Créer un webhook sur Wazo sur l'évenement "call_created" qui enverra sur l'adresse http de Mattermost le json décrit ci-dessus.
+- Créer un webhook sur Wazo sur l'évènement "call_created" qui enverra sur l'adresse HTTP de Mattermost le JSON décrit ci-dessus.
 
 Ouf on y arrive.
 
-Créer le wekhook sur Wazo, il faut le plugin wehbook de wazo, puis appuyer sur le petit plus pour en ajouter un nouveau.
+Créer le wekhook sur Wazo, il faut le plugin wehbook de Wazo, puis appuyer sur le petit plus pour en ajouter un nouveau.
 
 ![wazo-webhook-create.png](/public/wazo-webhook/wazo-webhook-create.png "Wazo webhook create")
 
@@ -86,14 +86,14 @@ Vous allez entrer un nom, par exemple "Mattermost call created" puis:
 
 - Event Name: "call_created"
 - Target: "http://mattermost/hook/monhook
-- Method: "post" (les hooks de mattermost sont des post)
-- Content Type: Nous laisserons du json
+- Method: "post" (les hooks de mattermost sont des POST)
+- Content Type: Nous laisserons du JSON
 - Users: Vous allez choisir de quel utilisateur vous souhaitez faire un webhook.
-- Template: Notre fameux json du dessus.
+- Template: Notre fameux JSON du dessus.
 
 ![wazo-webhook-edit.png](/public/wazo-webhook/wazo-webhook-edit.png "Wazo webhook edit")
 
-Les templates sont basés sur des templates jinja et vous pouvez donc récupérer les informations du message dans votre templace en utilisant la syntaxe {{ payload }}. Example {{ payload.user_uuid }}.
+Les templates sont basés sur des templates jinja et vous pouvez donc récupérer les informations du message dans votre template en utilisant la syntaxe {{ payload }}. Example {{ payload.user_uuid }}.
 
 Une fois votre webhook terminé, il suffira de recevoir et d'émettre un appel et vous recevrez en temps réel sur votre canal Mattermost l'information donnée.
 
