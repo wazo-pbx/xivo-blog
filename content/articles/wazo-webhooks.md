@@ -7,7 +7,7 @@ Status: published
 
 Depuis plusieurs mois nous travaillons activement pour améliorer Wazo et le rendre le plus ouvert possible. La dernière version 17.07 mets en lumière nos derniers travaux et nos développements actuels autour de Wazo.  Vous découvrirez ainsi : une nouvelle interface web basée sur nos APIs REST, une place de marché pour permettre d'étendre Wazo facilement, des nouvelles fonctionnalités comme les menus vocaux, les lignes multiples pour un utilisateur, etc.
 
-Mais nous avons encore quelques surprises pour vous au cours des prochains mois ! Avec en tête l'objectif de créer une plateforme de téléphonie à votre image, vous permettant de construire votre système sur mesure, il nous est apparu nécessaire de développer un outil rendant possible l' interconnexion avec une plateforme proposant  plus de 600 autres produits intéressants sur le marché. J'ai donc commencé travailler sur un connecteur vers une plateforme appelée Zapier. Pour ceux qui ne connaissent pas rendez-vous directement sur leur site web et créez-vous un compte pour tester, c'est gratuit.
+Mais nous avons encore quelques surprises pour vous au cours des prochains mois ! Avec en tête l'objectif de créer une plateforme de téléphonie à votre image, vous permettant de construire votre système sur mesure, il nous est apparu nécessaire de développer un outil rendant possible l' interconnexion avec une plateforme proposant  plus de 600 autres produits intéressants sur le marché.
 
 J'ai donc commencé un travail d'un connecteur sur une plateforme appelée Zapier. Pour ceux qui ne connaissent pas rendez-vous directement sur leur [site web](http://zapier.com) et créez vous un compte pour tester, c'est gratuit.
 
