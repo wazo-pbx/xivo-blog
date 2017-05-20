@@ -103,6 +103,10 @@ Les templates sont basés sur des templates jinja et vous pouvez donc récupére
 
 Une fois votre webhook terminé, il suffira de recevoir et d'émettre un appel et vous recevrez en temps réel sur votre canal Mattermost l'information donnée.
 
+Exemple avancé:
+
+![mattermost-webhook-example.png](/public/wazo-webhook/mattermost-webhook-example.png "Mattermost webhook example")
+
 J'espère que cette information vous sera utile et vous permettra de mieux comprendre ce que vous allez pouvoir faire avec Wazo très bientôt !
 
 N'hésitez pas à communiquer avec nous et nous remonter vos remarques.
