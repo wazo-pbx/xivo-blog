@@ -2,7 +2,7 @@ Title: Ngrok s'invite dans Wazo
 Date: 2017-05-26
 Author: Sylvain Boily
 Category: Wazo
-Slug: wazo-ngrok
+Slug: wazo-ngrok-fr
 Status: published
 
 
