@@ -6,7 +6,7 @@ Slug: wazo-ngrok-fr
 Status: published
 
 
-Ngrok est un logiciel permettant de monter simplement un tunnel inversé pour accèder à votre machine depuis internet. C'est sécurisé et simple à utiliser. C'est très pratique pour exposer par exemple une API interne sur internet sans avoir à configurer pleins d'équipements. Cela peut aussi vous permettre de donner la main en SSH simplement à notre équipe pour vous faire un support distant.
+Ngrok est un logiciel permettant de monter simplement un tunnel inversé pour accéder à votre machine depuis internet. C'est sécurisé et simple à utiliser. C'est très pratique pour exposer par exemple une API interne sur internet sans avoir à configurer pleins d'équipements. Cela peut aussi vous permettre de donner la main en SSH simplement à notre équipe pour vous faire un support distant.
 
 ![ngrok.png](/public/wazo-ngrok/ngrok.png "Ngrok website")
 
@@ -27,19 +27,19 @@ Quand votre plugin sera installé, vous aurez alors un menu ngrok qui va appara�
 ![wazo-ngrok-config.png](/public/wazo-ngrok/wazo-ngrok-config.png "Wazo ngrok config")
 
 
-Un fois ngrok configuré, vous pourrez alors créer des tunnels en cliquant sur le menu tunnel. Un certain nombre d'options sont disponible, mais attention sur un compte gratuit, vous ne pouvez pas utiliser toutes les options. Par exemple, le TLS et le sous domain ne sont pas des options dans le compte gratuit. Si vous souhaitez par exemple monter un tunnel HTTPS pour vous connecter sur l'interface HTTPS de Wazo, il faut activer le TLS. Vous pourrez par contre utiliser le mode TCP de ngrok vers le port 443 pour y accèder sans problème.
+Un fois ngrok configuré, vous pourrez alors créer des tunnels en cliquant sur le menu tunnel. Un certain nombre d'options sont disponible, mais attention sur un compte gratuit, vous ne pouvez pas utiliser toutes les options. Par exemple, le TLS et le sous-domaine ne sont pas des options dans le compte gratuit. Si vous souhaitez par exemple monter un tunnel HTTPS pour vous connecter sur l'interface HTTPS de Wazo, il faut activer le TLS. Vous pourrez par contre utiliser le mode TCP de ngrok vers le port 443 pour y accéder sans problème.
 
 
 ![wazo-ngrok-add.png](/public/wazo-ngrok/wazo-ngrok-add.png "Wazo ngrok add tunnel")
 
 
-Une fois votre tunnel monté, vous pourrez le voir dans la liste et récupérer l'adresse unique que ngrok a créer pour vous. Vous pourrez alors vous en servir pour accèder à votre wazo.
+Une fois votre tunnel monté, vous pourrez le voir dans la liste et récupérer l'adresse unique que ngrok a créer pour vous. Vous pourrez alors vous en servir pour accéder à votre Wazo.
 
 
 ![wazo-ngrok-tunnel.png](/public/wazo-ngrok/wazo-ngrok-tunnel.png "Wazo ngrok tunnel")
 
 
-En cas de problème ngrok offre ausi nativement l'inspection de trafic dans son interface de gestion interne. Pour y accèder rien de plus simple, il suffit de créer un tunnel HTTP sur le port 4040 et de vous y connecter.
+En cas de problème ngrok offre aussi nativement l'inspection de trafic dans son interface de gestion interne. Pour y accéder rien de plus simple, il suffit de créer un tunnel HTTP sur le port 4040 et de vous y connecter.
 
 
 ![ngrok-inspect.png](/public/wazo-ngrok/ngrok-inspect.png "Ngrok inspect")

@@ -38,7 +38,7 @@ Once your tunnel is up, you will see the unique address the Ngrok created for yo
 ![wazo-ngrok-tunnel.png](/public/wazo-ngrok/wazo-ngrok-tunnel.png "Wazo ngrok tunnel")
 
 
-Ngrok also allows you to inspect trafic going through the tunnel from its management interface. To access it, create a tunnel of type HTTP to port 4040 and connect to it using your browser.
+Ngrok also allows you to inspect traffic going through the tunnel from its management interface. To access it, create a tunnel of type HTTP to port 4040 and connect to it using your browser.
 
 
 ![ngrok-inspect.png](/public/wazo-ngrok/ngrok-inspect.png "Ngrok inspect")
