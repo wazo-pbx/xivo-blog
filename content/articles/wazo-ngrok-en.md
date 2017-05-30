@@ -6,22 +6,22 @@ Slug: wazo-ngrok-en
 Status: published
 
 
-Ngrok is a software allowing its users to create reverse tunnels to access a server from the Internet.  Its secure and easy to use. It's very useful to grant access to an internal API over the Internet without having to configure network equipment. It also allows you to create an SSH access to get help from the Wazo developers or another member of our community.
+Ngrok is a software allowing its users to create reverse tunnels to access a server from the Internet.  It's secure and easy to use. It's very useful to grant access to an internal API over the Internet without having to configure network equipment. It also allows you to create an SSH access to get help from the Wazo developers or another member of our community.
 
 ![ngrok.png](/public/wazo-ngrok/ngrok.png "Ngrok website")
 
 # Ngrok
 
-Using Ngrok from Wazo is very simple. The first step is to register to the ngrok service [site](http://ngrok.com) (which is free) and to retrieve your authentication token. The token is necessary to create tunnels.
+Using Ngrok from Wazo is very simple. The first step is to register to the ngrok service [site](http://ngrok.com) (which is free, as in beer) and to retrieve your authentication token. The token is necessary to create tunnels.
 
-This article focuses on Ngrok 2.0. Some features are only available from the paid subscription plans. You should consider getting a paid subscription if you find this service useful.
+This article focuses on Ngrok 2.0. Some features are only available with the paid subscription plans. You should consider getting a paid subscription if you find this service useful.
 
-Once you have your token, to have to get to your Wazo admin UI to install the Ngrok plugin.
+Once you have your token, you have to go to your Wazo admin UI to install the Ngrok plugin.
 
 ![wazo-plugin.png](/public/wazo-ngrok/wazo-plugin.png "Wazo ngrok plugin")
 
 
-After installing your plugind, an "Ngrok" entry will appear on the menu. You will have to go to the configuration to add your token and optionally select your geographical zone.
+After installing your plugin, an "Ngrok" entry will appear on the menu. You will have to go to the configuration to add your token and optionally select your geographical zone.
 
 
 ![wazo-ngrok-config.png](/public/wazo-ngrok/wazo-ngrok-config.png "Wazo ngrok config")
@@ -48,6 +48,6 @@ You can now discover and enjoy the simplicity of Wazo and Ngrok.
 
 Do not be shy and get in touch with us to give your feedback.
 
-Keep you Wazo squeaking!
+Keep your Wazo squeaking!
 
 /sylvain

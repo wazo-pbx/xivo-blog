@@ -33,7 +33,7 @@ Un fois ngrok configuré, vous pourrez alors créer des tunnels en cliquant sur 
 ![wazo-ngrok-add.png](/public/wazo-ngrok/wazo-ngrok-add.png "Wazo ngrok add tunnel")
 
 
-Une fois votre tunnel monté, vous pourrez le voir dans la liste et récupérer l'adresse unique que ngrok a créer pour vous. Vous pourrez alors vous en servir pour accéder à votre Wazo.
+Une fois votre tunnel monté, vous pourrez le voir dans la liste et récupérer l'adresse unique que ngrok a créé pour vous. Vous pourrez alors vous en servir pour accéder à votre Wazo.
 
 
 ![wazo-ngrok-tunnel.png](/public/wazo-ngrok/wazo-ngrok-tunnel.png "Wazo ngrok tunnel")
