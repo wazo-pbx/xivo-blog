@@ -23,8 +23,6 @@ Important bug fixes
 Ongoing features
 ----------------
 
-**Call logs**: We are attaching more data to the call logs and generating new views to have a summary for a given query instead of a list of call logs.
-
 **Admin UI**: We are working to improve the new web interface.
 
 **Plugin management**: There is still a lot to be done to the plugin management service. e.g. dependency, upgrade, wazo version constraint, HA, ..
