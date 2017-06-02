@@ -2,7 +2,7 @@ Title: No hardware for your phone system?
 Date: 2017-05-23
 Author: Sylvain Boily
 Category: Wazo
-Slug: wazo-unicom
+Slug: wazo-unicom-fr
 Status: published
 
 
