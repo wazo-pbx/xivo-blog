@@ -53,7 +53,7 @@ Plusieurs subtilités existent dans le logiciel. La première étant que nous su
 
 Exemple: Je cherche le contact Jean, je clique dessus pour l'appeler, mon téléphone IP sonne, je le décroche et je suis mis en relation avec Jean. Unicom sera donc un assistant web pour votre téléphone IP.
 
-À la différence avec vous n'avez pas de téléphone IP et vous avez choisi dans l'interface de Wazo de créer un utilisateur ayant la capacité d'avoir une ligne avec la technologie WebRTC. Beaucoup de grand mots techniques ici, mais c'est tout simplement avoir de la communication temps réel dans un navigateur web. Dans notre cas avoir son téléphone dans son navigateur web.
+À la différence, si vous n'avez pas de téléphone IP, vous pouvez choisir dans l'interface de Wazo de créer un utilisateur ayant la capacité d'avoir une ligne avec la technologie WebRTC. Beaucoup de grand mots techniques ici, mais c'est tout simplement avoir de la communication temps réel dans un navigateur web. Dans notre cas avoir son téléphone dans son navigateur web.
 
 L'ergonomie de l'interface sera alors la même, mais vous n'aurez plus besoin d'avoir de téléphone physique, un simple navigateur web avec un micro/casque fera l'affaire. Gros avantage, c'est que vous devenez alors complètement nomade sans avoir à installer aucun logiciel. De plus Wazo supporte le codec Opus permettant d'avoir une meilleure expérience avec cette façon de téléphoner. Personnellement depuis que j'utilise Unicom, je ne touche plus à mes téléphones de bureau. De plus pour le télétravail cette solution est tout simplement magique et extrêmement simple à mettre en œuvre.
 
