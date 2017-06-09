@@ -5,6 +5,7 @@ Category: Wazo
 Slug: wazo-ngrok-en
 Status: published
 
+Cliquez [ici](http://blog.wazo.community/wazo-ngrok-fr.html) pour la version française.
 
 Ngrok is a software allowing its users to create reverse tunnels to access a server from the Internet.  It's secure and easy to use. It's very useful to grant access to an internal API over the Internet without having to configure network equipment. It also allows you to create an SSH access to get help from the Wazo developers or another member of our community.
 
