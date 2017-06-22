@@ -13,7 +13,7 @@ New features in this sprint
 
 **Plugins**: We added a command-line utility (`wazo-plugind-cli`) to ease the installation of plugins from shell scripts. This should be useful for automatically installing new Wazo machines, with plugins pre-installed.
 
-**SCCP**: A few versions earlier, we added the possibility to attach multiple lines to a user, to that when this user is called, all of his phones ring at the same time. But until now, this was restricted to SIP phones (including WebRTC lines), but not Cisco SCCP phones. In Wazo 17.09, users may have as many SIP, WebRTC or SCCP lines as they wish, and they will all ring at the same time when someone calls.
+**SCCP**: A few versions earlier, we added the possibility to attach multiple lines to a user, so that when this user is called, all of his phones ring at the same time. But until now, this was restricted to SIP phones (including WebRTC lines), but not Cisco SCCP phones. In Wazo 17.09, users may have as many SIP, WebRTC or SCCP lines as they wish, and they will all ring at the same time when someone calls.
 
 **Admin UI**: The Extensions plugin has been updated to include a view listing all the phone numbers configured on the Wazo, and what they are linked to.
 
