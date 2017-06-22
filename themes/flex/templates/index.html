@@ -21,6 +21,7 @@
            when=article.locale_date,
            category='<a href="%s/%s">%s</a>'|format(SITEURL, article.category.url, article.category)|safe) }}
 
+      by {{ article.author.name }}
       {% if article.tags and not HOME_HIDE_TAGS %}
           &#8226; {{ _('Tagged with') }}
           {% for tag in article.tags %}
