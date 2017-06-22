@@ -42,10 +42,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
-
-# Translations
-*.mo
-*.pot
+tests/output
 
 # Django stuff:
 *.log
@@ -55,6 +52,8 @@ docs/_build/
 
 # PyBuilder
 target/
+
+venv
 
 # NPM
 node_modules

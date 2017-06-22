@@ -1,6 +1,6 @@
-# Flex
+# Flex [![Build Status](https://travis-ci.org/alexandrevicenzi/Flex.svg?branch=master)](https://travis-ci.org/alexandrevicenzi/Flex) [![Dependency Status](https://david-dm.org/alexandrevicenzi/Flex.svg)](https://david-dm.org/alexandrevicenzi/Flex) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/alexandre-vicenzi/flex?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-A minimalist [Pelican](http://blog.getpelican.com/) theme.
+The minimalist [Pelican](http://blog.getpelican.com/) theme.
 
 ## Features
 
@@ -10,127 +10,62 @@ A minimalist [Pelican](http://blog.getpelican.com/) theme.
 - SEO Best Practices
 - Open Graph
 - Rich Snippets (JSON-LD)
+- Related Posts (via [plugin](https://github.com/getpelican/pelican-plugins/tree/master/related_posts))
+- Minute read like [Medium](https://medium.com/) (via [plugin](https://github.com/getpelican/pelican-plugins/tree/master/post_stats)) (new in 2.0)
+- [Multiple Code Highlight Styles](https://github.com/alexandrevicenzi/Flex/wiki/Code-highlight-support)
+- [Translation Support](https://github.com/alexandrevicenzi/Flex/wiki/Translation-support) (new in 2.0)
 
 ## Integrations
 
-- AddThis
-- Disqus
-- Google Analytics
-- Google Tag Manager
-- StatusCake
+- [AddThis](http://www.addthis.com/)
+- [Disqus](https://disqus.com/)
+- [Gauges](http://get.gaug.es/)
+- [Google AdSense](https://www.google.com.br/adsense/start/) (new in 2.1)
+- [Google Analytics](https://www.google.com/analytics/web/)
+- [Google Tag Manager](https://www.google.com/tagmanager/)
+- [Piwik](http://piwik.org/)
+- [StatusCake](https://www.statuscake.com/)
 
-## Custom settings
+## Install
 
-See what you can customize.
+The recommend way to install is over [pelican-themes](https://github.com/getpelican/pelican-themes).
 
-> Maybe some Pelican settings not work properly.
+The `master` branch is the development branch. If you're happy with fresh new things and maybe sometimes (~most of time~) broken things you can clone the `master`, but I would recommend to you to clone a tag branch.
 
-| Name | What does it do? |
-|:----:|------------------|
-| SITETITLE | Site title to show in sidebar. |
-| SITESUBTITLE | Short description to show below subtitle. |
-| SITELOGO | Profile picture to show above author name (absolute url). |
-| SITEDESCRIPTION | Site description to use in meta tags. |
-| OG_LOCALE | language_TERRITORY for Open Graph. Default is `en_US`. |
-| COPYRIGHT_YEAR | Copyright year to display on footer. |
-| CC_LICENSE | Creative Commons License to show on footer. |
-| MENUITEMS | A list of tuples (Title, URL) for additional menu items to appear on main menu. |
-| LINKS | A list of tuples (Title, URL) for links to appear on the sidebar menu. |
-| SOCIAL | A list of tuples (name, URL) to appear in the "social" section. |
-| MAIN_MENU | Show main menu. |
-| ROBOTS | Robots meta tag value. |
-| ADD_THIS_ID | AddThis public id. |
-| DISQUS_SITENAME | Disqus website's shortname to activate Disqus. |
-| GOOGLE_ANALYTICS | Activate Google Analytics. |
-| GOOGLE_TAG_MANAGER | Activate Google Tag Manager. |
-| STATUSCAKE | Show StatusCake Uptime badge on footer. |
+## Docs
 
-### Example
+[Go to Wiki](https://github.com/alexandrevicenzi/Flex/wiki)
 
-```python
-AUTHOR = 'Foo Bar'
-SITEURL = 'http://yoursite.com'
-SITENAME = 'Foo Bar\'s Blog'
-SITETITLE = 'Foo Bar'
-SITESUBTITLE = 'Web Developer'
-SITEDESCRIPTION = 'Foo Bar\'s Thoughts and Writings'
-SITELOGO = 'http://yoursite.com/img/profile.png'
+## Contributing
 
-FAVICON = SITEURL + '/images/favicon.ico'
-ROBOTS = 'index, follow'
+Always open an issue before sending a PR. Talk about the problem/feature that you want to fix. If it's really a good thing you can submit your PR. If you send an PR without talking about before what it is, you may work for nothing.
 
-COPYRIGHT_YEAR = 2015
-CC_LICENSE = { 'name': 'Creative Commons Attribution-ShareAlike', 'version':'4.0', 'slug': 'by-sa') }
+As always, if you want something that only make sense to you, just fork Flex and start a new theme.
 
-MAIN_MENU = True
+## Translate
 
-ADD_THIS_ID = 'ra-77hh6723hhjd'
-DISQUS_SITENAME = 'yoursite'
-GOOGLE_ANALYTICS = 'UA-1234-5678'
-GOOGLE_TAG_MANAGER = 'GTM-ABCDEF'
-STATUSCAKE = { 'trackid': 'your-id', 'days': 7 }
-```
+Translate this theme to new languages at [Transifex](https://www.transifex.com/alexandrevicenzi/flex-pelican/).
 
-If you want a full working example take a look [here](https://github.com/alexandrevicenzi/blog/blob/master/pelicanconf.py).
+![Translations](https://github.com/alexandrevicenzi/Flex/blob/master/translation_chart.png)
 
-### How main menu works?
-
-If `MAIN_MENU = True`, the order is: Home, `MENUITEMS`, Atom and RSS if available.
-
-### How sidebar menu works?
-
-The order is Pages and `LINKS`. `LINKS` are shown in a new page.
-
-### How social menu works?
-
-All icons are provided by [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
-
-A set of icons have custom background, for this you must follow the names below:
-
-- envelope-o (for email)
-- facebook
-- github
-- github-alt
-- google
-- linkedin
-- pinterest
-- rss
-- stack-overflow
-- twitter
-- youtube
-
-Example:
-
-```python
-SOCIAL = (('linkedin', 'https://br.linkedin.com/in/alexandrevicenzi/en'),
-          ('github', 'https://github.com/alexandrevicenzi'),)
-```
-
-If you need more icons, you will need to add a custom background to keep all icons similar.
-
-## Custom File Metadata
-
-| Name | What does it do? |
-|:----:|------------------|
-| Summarize | Enable Home summary. |
-| Cover | Cover image for social sharing (absolute url). |
-| og_locale | Open graph locale for article. |
-
-By default, all article content is shown on Home.
-If the article has a custom Summary, the custom summary is shown.
-If the article has `Summarize: True` metadata, the default article summary is shown.
-
-## Code Highlight
-
-If you want to replace Pygments theme (default is GitHub) take a look at [Pygments Docs](http://pygments.org/) and replace `pygments.min.css`.
+Read more about [Translation Support](https://github.com/alexandrevicenzi/Flex/wiki/Translation-support).
 
 ## Live example
 
 You can see how things looks like [here](https://blog.alexandrevicenzi.com/flex-pelican-theme.html).
+Or you can take a look at [Flex users](https://github.com/alexandrevicenzi/Flex/wiki/Flex-users).
 
 I'm using Flex in my [personal blog](http://blog.alexandrevicenzi.com/).
 
 ![Screenshot](https://github.com/alexandrevicenzi/Flex/blob/master/screenshot.png)
+
+## Donate
+
+Did you liked this theme? Buy me a beer and support new features.
+
+[![Gratipay](https://img.shields.io/gratipay/user/alexandrevicenzi.svg?maxAge=2592000)](https://gratipay.com/~alexandrevicenzi/)
+
+[![PayPal](https://img.shields.io/badge/paypal-donate-yellow.svg?maxAge=2592000)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KZCMH3N74KKFN&lc=BR&item_name=Alexandre%20Vicenzi&item_number=flex&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
 ## License
 
