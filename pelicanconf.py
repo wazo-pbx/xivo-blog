@@ -13,6 +13,7 @@ CC_LICENSE = {'name': 'Create Commons Attribution-ShareAlike',
 
 
 PATH = 'content'
+RELATIVE_URLS = True
 THEME = 'themes/flex'
 
 TIMEZONE = 'America/Montreal'
