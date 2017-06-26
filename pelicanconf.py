@@ -5,7 +5,8 @@ from __future__ import unicode_literals
 AUTHOR = 'The Wazo Authors'
 SITENAME = 'Wazo Blog'
 SITEURL = 'http://blog.wazo.community'
-SITELOGO = 'public/wazo-logo.png'
+SITELOGO = 'public/wazo-logo.svg'
+FAVICON = 'public/favicon.svg'
 COPYRIGHT_YEAR = '2016'
 CC_LICENSE = {'name': 'Create Commons Attribution-ShareAlike',
               'version': '4.0',
@@ -13,6 +14,7 @@ CC_LICENSE = {'name': 'Create Commons Attribution-ShareAlike',
 
 
 PATH = 'content'
+RELATIVE_URLS = True
 THEME = 'themes/flex'
 
 TIMEZONE = 'America/Montreal'
@@ -20,9 +22,14 @@ TIMEZONE = 'America/Montreal'
 DEFAULT_LANG = 'en'
 
 ARTICLE_PATHS = ['articles']
-STATIC_PATHS = ['public']
+STATIC_PATHS = ['public', 'extra']
 
 MAIN_MENU = True
+
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'static/custom.css'},
+}
+CUSTOM_CSS = 'static/custom.css'
 
 # Blogroll
 LINKS = (
