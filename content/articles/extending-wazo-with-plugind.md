@@ -14,7 +14,7 @@ Currently, you can:
 * Add python code to extend the functionality of most services
 * Add files to the system or install packages to get more features
 
-One of the aspect that was still cruelly missing was a way to distribute and easily install those extensions. Having to download a zip file, extract it and copy files whereever they are required is not ideal, especially when it comes to removing an extension.
+One of the aspect that was still cruelly missing was a way to distribute and easily install those extensions. Having to download a zip file, extract it and copy files wherever they are required is not ideal, especially when it comes to removing an extension.
 
 Wazo plugins will fill that gap.
 
