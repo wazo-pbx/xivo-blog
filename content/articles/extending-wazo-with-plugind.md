@@ -6,17 +6,17 @@ Slug: extending-wazo-plugins-en
 Status: published
 
 
-One of the strength of Wazo is that the administrator can modify the system to add new features or override default behaviours that are not appropriate to its use case. There are many ways to extend Wazo.
+One of the strengths of Wazo is that the administrator can modify the system to add new features or override default behaviors that are not appropriate to its use case. There are many ways to extend Wazo.
 
-At the moment you can:
+Currently, you can:
 
 * Add dialplan files with hooks for each destination
 * Add python code to extend the functionality of most services
-* Add files to the system or install packages to get more functionality
+* Add files to the system or install packages to get more features
 
-One of the aspect that was still cruelly missing was a way to distribute and install those extensions. Having to download a zip file, extract it and copy files where ever they are required is not ideal, especially when it comes to removing an extension.
+One of the aspect that was still cruelly missing was a way to distribute and easily install those extensions. Having to download a zip file, extract it and copy files whereever they are required is not ideal, especially when it comes to removing an extension.
 
-Wazo plugins should fill that gap.
+Wazo plugins will fill that gap.
 
 
 # Meet wazo-plugind
@@ -26,13 +26,13 @@ Plugind is a service that we developed to help manage third party plugins as wel
 
 # What is a plugin
 
-Since there was already many ways to extend Wazo, one might ask, what is a plugin anyway. A plugin is a bundle of extensions that have been developed using already existing extension points.  For example, an extension to manage the followme module in asterisk could do the following things.
+Since there was already many ways to extend Wazo, one might ask, what is a plugin anyway? A plugin is a bundle of extensions that have been developed using already existing extension points.  For example, an extension to manage the followme module in asterisk could do the following things.
 
 * Add a menu to the administration UI
 * Add the dialplan to be able to use that feature
 * Enable the asterisk module
 
-What plugind does is wrap the plugin into a Debian package to be able to install, remove and eventually upgrade it without having to keep track of what you've done to your system. The requirements to build such a plugin will be covered by another post.
+What plugind does is wrap the plugin into a Debian package to be able to install, remove and eventually upgrade it without having to keep track of what you've done to your system. The requirements to build such a plugin will be covered in another post.
 
 
 # What does plugind do?
@@ -50,7 +50,7 @@ At the moment plugins can be:
 
 # Plugin distribution
 
-Plugin distribution is still in progress. Only plugins in a git repository accessible to wazo-plugind are installable at the moment. The plugin menu in the administration UI is a list of known available plugins. More ways to install will become available soon. One being a the market that will allow wazo-plugind to install a plugin without having to build it first.
+Plugin distribution is still in progress. Only plugins in a git repository accessible to wazo-plugind are installable at the moment. The plugin menu in the administration UI is a list of known available plugins. More ways to install will become available soon. One of them will be the market that will allow wazo-plugind to install a plugin without having to build it first.
 
 
 # What's next?
