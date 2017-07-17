@@ -1,5 +1,5 @@
 Title: Sprint Review 17.10
-Date: 2017-06-21
+Date: 2017-07-17
 Author: The Wazo Authors
 Category: Wazo IPBX
 Tags: wazo, development
