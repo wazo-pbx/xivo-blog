@@ -20,11 +20,6 @@ Hello Wazo community! Here comes the release of Wazo 17.13!
 **Webhooks**: Add the ability to have webhooks only for events concerning a given user.
 
 
-## Technical features
-
-**REST API**: Deleting a line now disassociate it automatically.
-
-
 ## Ongoing features
 
 **Plugin management**: We want developers to be able to write and share Wazo plugins easily. For this, we need a central place where users can browse plugins and developers can upload them. That's what we call the Plugin Market. Right now, the market already serves the list of available plugins, but it is very static. Work will now be done to add a front end to our plugin market, allowing users to browse, add and modify plugins.
