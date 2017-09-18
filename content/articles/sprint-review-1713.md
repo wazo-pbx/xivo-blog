@@ -10,14 +10,14 @@ Hello Wazo community! Here comes the release of Wazo 17.13!
 
 ## Security update
 
-**Asterisk**: Asterisk 14.6.1 has been included in Wazo 17.13. It contains many security fixes including one for the RTPbleed bug.
+**Asterisk**: [Asterisk 14.6.1](http://downloads.asterisk.org/pub/telephony/asterisk/releases/ChangeLog-14.6.1) has been included in Wazo 17.13. It contains many security fixes including one for the [RTPbleed bug](https://rtpbleed.com).
 
 
 ## New features in this sprint
 
-**Admin UI**: The user plugin now allow the administrator to change the user's group membership from the user form.
+**Admin UI**: The user plugin now allows the administrator to change the user's group membership from the user form.
 
-**Webhooks**: Add the ability to have webhooks only for events concerning a given user.
+**Webhooks**: Add the ability to trigger webhooks only for events regarding a given user.
 
 
 ## Ongoing features
