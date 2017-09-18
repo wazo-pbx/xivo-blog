@@ -12,18 +12,17 @@ Hello Wazo community! Here comes the release of Wazo 17.13!
 
 **Asterisk**: Asterisk 14.6.1 has been included in Wazo 17.13. It contains many security fixes including one for the RTPbleed bug.
 
+
 ## New features in this sprint
 
-**REST API**: A new has been added to modify a user's service.
+**Admin UI**: The user plugin now allow the administrator to change the user's group membership from the user form.
 
-**Wazo plugins**: The user plugin now allow the administrator to change the user's group membership from the user form.
+**Webhooks**: Add the ability to have webhooks only for events concerning a given user.
 
 
 ## Technical features
 
-**REST API**: Deleting a line now disassocite it automatically.
-
-**Web Hooks**: Add the ability to have webhooks only for events conserning a given user.
+**REST API**: Deleting a line now disassociate it automatically.
 
 
 ## Ongoing features
@@ -43,5 +42,5 @@ See you at the next sprint review!
 
 Sources:
 
-* [Upgrade notes](http://documentation.wazo.community/en/wazo-17.12/upgrade/upgrade.html#upgrade-notes)
-* [Wazo 17.12 Roadmap](https://projects.wazo.community/versions/265)
+* [Upgrade notes](http://documentation.wazo.community/en/wazo-17.13/upgrade/upgrade.html#upgrade-notes)
+* [Wazo 17.13 Roadmap](https://projects.wazo.community/versions/266)
