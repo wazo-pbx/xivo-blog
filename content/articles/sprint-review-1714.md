@@ -18,7 +18,7 @@ Hello Wazo community! Here comes the release of Wazo 17.14!
 
 ## New features in this sprint
 
-**Wazo client**: A version of the Wazo client has been released and can be used to replace the xivo client.
+**Wazo Client**: The Wazo Client 17.14.1 has been released and can be used to replace the previous CTI client.
 
 **Webhooks**: Webhooks can be triggered on a per user basis for chat, agent login/logouts and device status changes.
 
