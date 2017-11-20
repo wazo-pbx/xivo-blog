@@ -12,7 +12,7 @@ Hello Wazo community! Here comes the release of Wazo 17.16!
 
 **REST API**: Groups can now ring arbitrary extensions. This was already possible with a specific user, a custom line and a Local channel. This API does the same thing, only a lot simpler. There is no graphical interface to use this API yet, though.
 
-**REST API**: Until now, schedules in REST API could only be created, but not associated with anything. Schedules can now be associated with users, groups and outgoing calls via REST API.
+**REST API**: Until now, schedules in REST API could only be associated to incoming calls. Schedules can now be associated with users, groups and outgoing calls via REST API.
 
 ## Ongoing features
 
@@ -31,4 +31,4 @@ See you at the next sprint review!
 Sources:
 
 * [Upgrade notes](http://documentation.wazo.community/en/wazo-17.16/upgrade/upgrade.html#upgrade-notes)
-* [Wazo 17.16 Roadmap](https://projects.wazo.community/versions/268)
+* [Wazo 17.16 Roadmap](https://projects.wazo.community/versions/269)
