@@ -12,6 +12,8 @@ Status: published
 
 **Network**: NAT configuration has been simplified, when the Wazo server is hosted in a datacenter.
 
+**API interconnection**: Wazo is now able to use OAuth2 authentication mechanisms to interact with external API systems. The first example we are working on is to interconnect Wazo with Zoho, other such API include Google, Amazon, etc.
+
 
 ## Ongoing features
 
@@ -21,7 +23,8 @@ Status: published
 
 ---
 
-The instructions for [installing Wazo](http://documentation.wazo.community/en/stable/installation/installsystem.html) or [upgrading Wazo](http://documentation.wazo.community/en/stable/upgrade/upgrade.html) are available in the documentation.
+The instructions for [installing Wazo](http://documentation.wazo.community/en/stable/installation/installsystem.html) are available in the documentation.
+The instructions for [upgrading Wazo](http://documentation.wazo.community/en/stable/upgrade/upgrade.html) as also available in the documentation. Be sure to read the [breaking changes](http://documentation.wazo.community/en/wazo-17.17/upgrade/upgrade_notes.html).
 
 For more details about the aforementioned topics, please see the roadmap linked below.
 
@@ -29,5 +32,5 @@ See you at the next sprint review!
 
 Sources:
 
-* [Upgrade notes](http://documentation.wazo.community/en/wazo-17.17/upgrade/upgrade.html#upgrade-notes)
+* [Upgrade notes](http://documentation.wazo.community/en/wazo-17.17/upgrade/upgrade_notes.html)
 * [Wazo 17.17 Roadmap](https://projects.wazo.community/versions/270)
