@@ -12,7 +12,7 @@ Status: published
 
 **Network**: NAT configuration has been simplified, when the Wazo server is hosted in a datacenter.
 
-**API interconnection**: Wazo is now able to use OAuth2 authentication mechanisms to interact with external API systems. The first example we are working on is to interconnect Wazo with Zoho, other such API include Google, Amazon, etc.
+**API interconnection**: Wazo is now able to use OAuth2 authentication client mechanisms to interact with external API systems. The first example we are working on is to interconnect Wazo with Zoho, other such API include Google, Office 365, etc.
 
 
 ## Ongoing features
