@@ -6,6 +6,11 @@ Tags: wazo, development
 Slug: sprint-review-1717
 Status: published
 
+Hello Wazo community!
+
+This release is our birthday release, since the fork! Thanks for following us this last year and keep in touch, the best is yet to come. :)
+
+
 ## New features in this sprint
 
 **REST API**: REST APIs have been added for SIP trunks, timezones, prompt languages, call permissions voicemail and IAX configuration.
