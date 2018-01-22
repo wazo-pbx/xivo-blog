@@ -8,8 +8,6 @@ Status: published
 
 ## New features in this sprint
 
-**System**: the underlying Debian GNU/Linux system is upgraded to Debian 9 Stretch. The upgrade procesure is a bit different than usual and will take longer than previous upgrades. See the [specific release notes](http://documentation.wazo.community/en/latest/upgrade/18.01/stretch.html) for more details.
-
 **REST API**: REST APIs have been added for:
   * SCCP general configuration
   * IAX trunks configuration
@@ -18,10 +16,18 @@ Status: published
   * Sound files
   * Trunk registrations
 
-**Yealink**: The provisioning plugin for Yealink now includes the v82 firmware. Thanks to DamienB505 for the patches!
+
+## Technical features
+
+**System**: the underlying Debian GNU/Linux system is upgraded to Debian 9 Stretch. The upgrade procesure is a bit different than usual and will take longer than previous upgrades. See the [specific release notes](http://documentation.wazo.community/en/latest/upgrade/18.01/stretch.html) for more details.
 
 **Asterisk**: Asterisk is upgraded to the latest version [15.2.0](https://downloads.asterisk.org/pub/telephony/asterisk/releases/ChangeLog-15.2.0).
-  
+
+
+## Contributions
+
+**Yealink**: The provisioning plugin for Yealink now includes the v82 firmware. Thanks to DamienB505 for the patches!
+
 
 ## Ongoing features
 
