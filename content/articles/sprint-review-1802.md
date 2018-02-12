@@ -12,7 +12,7 @@ Status: published
 
 **CDR**: The CDR REST API has been improved: for a given call, we have the two following information: 1. what extension has been dialed and 2. what extension or user has answered the call.
 
-**Admin-UI web interface**: A lot of management plugins have been improved. Also, a new plugin for managing sound files has been added.
+**Admin-UI web interface**: A lot of management plugins have been improved. Also, plugins for managing sound files, SIP trunks, IAX trunks and SIP, SCCP and custom lines have been added.
 
 
 ## Ongoing features
