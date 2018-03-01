@@ -29,6 +29,8 @@ Status: published
 
 **REST API**: We are working towards replacing the old orange admin web interface with the more modern and easier to maintain blue web interface (wazo-admin-ui on `/admin`). Since wazo-admin-ui is only using REST API under the hood, we need REST API to cover all cases of administration of Wazo. Hence we are completing the set of REST API offered by Wazo. You can find the complete API documentation on [http://api.wazo.community](http://api.wazo.community).
 
+**Authentication**: We are changing the authentication mechanism of users and administrators to use a more secure storage. Most of the login experience will be the same, with a few limitations, like not being able to see passwords in clear text.
+
 ---
 
 The instructions for [installing Wazo](http://documentation.wazo.community/en/stable/installation/installsystem.html) are available in the documentation.
