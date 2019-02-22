@@ -6,8 +6,6 @@ Tags: Mobile, testing
 Slug: testing-interaction-between-mobile-applications
 Status: published
 
-# Testing Interactions Between Mobile Applications: A Bumpy Ride
-
 ![callkeep](https://user-images.githubusercontent.com/2076632/52963046-ca98b200-336c-11e9-8c82-590c0bed8839.gif)
 
 For the past couple weeks, we've been working on how to automate integration tests on our mobile application. This application is built with react-native and uses edge technologies like native WebRTC, native UI with ConnectionService or CallKit (see our library [callkeep](https://github.com/wazo-pbx/react-native-callkeep)) and wake up push notification.
