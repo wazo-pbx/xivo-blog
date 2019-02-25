@@ -45,13 +45,6 @@ Then open a browser at http://localhost:8000
 Publishing 
 ==========
 
-Publishing is done via github pages. The first time you clone the repository, run this command
-to setup branches needed for publishing:
-
-    make github_setup
-
-Once you are ready to publish your articles, run the following command:
-
-    make github
-
-Files will automatically be generated and uploaded using your github credentials.
+To publish your article on https://blog.wazo.community, merge your article into
+master. [Jenkins](https://jenkins.wazo.community/job/xivo-blog) will take care
+of the rest.
