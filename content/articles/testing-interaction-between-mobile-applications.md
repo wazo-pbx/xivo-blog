@@ -24,7 +24,7 @@ Testing interactions on a single application is pretty straightforward: tap on a
 
 To launch another device, we needed another instance of `Detox`, and to call `launchApp` on its `device` attribute:
 ```js
-// Takes configuration from package.json (our test are ran with `yarn e2e:test:ios` or `yarn e2e:test:android` so can we check the environment variable `npm_lifecycle_event`)
+// Takes configuration from package.json (our tests are run with `yarn e2e:test:ios` or `yarn e2e:test:android` so can we check the environment variable `npm_lifecycle_event`)
 const deviceConfig = require('../package.json').detox.configurations[process.env.npm_lifecycle_event === 'e2e:test:ios' ? 'ios.sim.debug' : 'android.emu.debug']; 
 const otherDetox = new Detox({ deviceConfig });
 await otherDetox.device.launchApp();
@@ -57,7 +57,7 @@ module.exports = function() {
 	return { /**/	};
 }
 ```
-And then in the caller:
+Then in the caller:
 ```diff
 + const configureExpect = require('../../ios/expect');
 // ...
@@ -68,11 +68,11 @@ And then in the caller:
 
 This way, the `invocationManager` would be cached for each call of `configureExpect`.
 
-This method works well, but mocking the module in unit tests would be very complicated. Because Jest doesn't know about all return attributes in our wrapper, every method of the module would have to be mocked.
+This method works well, but mocking the module in unit tests would be complex. Because Jest doesn't know about all return attributes in our wrapper, every method of the module would have to be mocked.
 
 ## Avoiding the Require Cache, Round 2
 
-Another way to avoid this cache is to make a class from the module. Set the `invocationManager` as an attribute and instantiate it as follow:
+Another way to avoid this cache is to make a class from the module. Set the `invocationManager` as an attribute and instantiate it as follows:
 ```diff
 + const IosExpect = require('../../ios/expect');
 // ...
@@ -81,10 +81,10 @@ Another way to avoid this cache is to make a class from the module. Set the `inv
 + this.expect = new IosExpect(new InvocationManager(this.client));	
 ```
 
-Jest is also aware of each methods of our class and can mock them automatically!
+Jest is also aware of each method of our class and can mock them automatically!
 
 ## Success!
 
 After some research and some failures, we are now able to test interactions between multiple devices with Detox easily!
 
-We've made a [PR from our journey](https://github.com/wix/Detox/pull/1144). Feel free to `+1` the pull request if you need that feature for you application.
+We've made a [PR from our journey](https://github.com/wix/Detox/pull/1144). Feel free to `+1` the pull request if you need that feature for your application.
