@@ -1,10 +1,10 @@
+Title: Testing Interactions Between Mobile Applications: A Bumpy Ride
 Date: 2019-02-19 12:30:00
 Author: Emmanuel QUENTIN
 Category: Wazo IPBX
 Tags: Mobile, notification, VoIP, CallKit, ConnectionService, PushKit
 Slug: how-to-make-your-voip-application-always-reachable
 Status: published
-Title: Testing Interactions Between Mobile Applications: A Bumpy Ride
 
 # How to Make your VoIP Application Always Reachable
 
