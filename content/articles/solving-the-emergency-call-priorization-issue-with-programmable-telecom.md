@@ -45,14 +45,14 @@ All this, of course, in full web with a phone using webRTC.
 We formed several groups of people according to their favourite taste: C lovers, python devotees or JavaScript aficionados.
 
 Our initial plan was that, during a call, we would:
-Retrieve the real-time feed in a websocket;
-Send it to a tool to transcribe the feed into text;
-Then notify the result of the text analysis in the Wazo websocket service.
+- Retrieve the real-time feed in a websocket;
+- Send it to a tool to transcribe the feed into text;
+- Then notify the result of the text analysis in the Wazo websocket service.
 
 Unfortunately, it was not possible to do this, based directly on Asterisk. Still, there were existing alternative ways to proceed: 
-through EAGI;
-through a project that can be found on GitHub: https://github.com/CyCoreSystems/audiosocket;
-through Freeswitch: https://github.com/Nexmo/wsbridge;
+- through EAGI;
+- through a project that can be found on GitHub: https://github.com/CyCoreSystems/audiosocket;
+- through Freeswitch: https://github.com/Nexmo/wsbridge;
 
 We were not happy with these ways to proceed because it was using the dialplan, and because the offered solutions were not in line with the spirit of the Wazo programmable platform. We decided to write a module in Asterisk to retrieve the voice feed in a websocket.
 For those who can’t wait, this module can be found here: https://github.com/sboily/wazo-hackathon-asterisk-stream-module
@@ -92,9 +92,9 @@ This live speech-to-text keyword detection demo was a very basic - yet useful - 
 
 ## KEY TAKEAWAYS
 
-We had a lot of fun during these three days and were able to meet talented and really nice developers. It was a great opportunity to share our passion for our project.
+- We had a lot of fun during these three days and were able to meet talented and really nice developers. It was a great opportunity to share our passion for our project.
 
-The functional output of this hackathon was quite interesting and allowed us to produce very encouraging results in a very short time frame based on the Wazo development platform.
+- The functional output of this hackathon was quite interesting and allowed us to produce very encouraging results in a very short time frame based on the Wazo development platform.
 
 We would like to thank the participants, but also the part of the Wazo Quebec team who went to France to host this hackathon. We will clearly do this type of event again in the future.
 
