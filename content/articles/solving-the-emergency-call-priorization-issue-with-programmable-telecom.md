@@ -1,5 +1,5 @@
 Title: Solving the emergency call priorization issue with programmable telecom
-Date: 2019-03-19 12:30:00
+Date: 2019-04-26 15:45:00
 Author: Jérome Pascal
 Category: Hackathon
 Tags: emergency, programmable telecom, hackathon, voip
@@ -30,7 +30,7 @@ By solving this issue, our hidden objective was to demonstrate how easy it is to
 
 The team gathered in an apartment that we rented on the famous place of the Opera, in Paris downtown.
 
-![opera](https://github.com/wazo-pbx/xivo-blog/raw/emergency/content/public/hackathon/2.png)
+![opera](https://github.com/wazo-pbx/xivo-blog/raw/emergency/content/public/hackathon/2.png){ width=50% }
 
 
 The first morning was dedicated to get to know each other and also to share and explain the Wazo programmable platform, its ambition, its purpose and how it works.
@@ -45,11 +45,13 @@ All this, of course, in full web with a phone using webRTC.
 We formed several groups of people according to their favourite taste: C lovers, python devotees or JavaScript aficionados.
 
 Our initial plan was that, during a call, we would:
+
 - Retrieve the real-time feed in a websocket;
 - Send it to a tool to transcribe the feed into text;
 - Then notify the result of the text analysis in the Wazo websocket service.
 
 Unfortunately, it was not possible to do this, based directly on Asterisk. Still, there were existing alternative ways to proceed: 
+
 - through EAGI;
 - through a project that can be found on GitHub: https://github.com/CyCoreSystems/audiosocket;
 - through Freeswitch: https://github.com/Nexmo/wsbridge;
@@ -62,15 +64,15 @@ Meanwhile, the other team was looking for the right transcription engine. Google
 We then regrouped to draw this wonderful Miró-style piece of art:
 
 
-![postit](https://github.com/wazo-pbx/xivo-blog/raw/emergency/content/public/hackathon/3.png)
-![miro](https://github.com/wazo-pbx/xivo-blog/raw/emergency/content/public/hackathon/4.png)
+![postit](https://github.com/wazo-pbx/xivo-blog/raw/emergency/content/public/hackathon/3.png){ width=30%; float: left; }
+![miro](https://github.com/wazo-pbx/xivo-blog/raw/emergency/content/public/hackathon/4.png){ width=33.5%; float: right; }
 
 
 So, the decision was made to build an Asterisk module where a given channel would get the voice feed in a websocket, for any incoming call within the Wazo voice programmable application.
 
 Then a JavaScript module would display the ongoing calls as well as the live text transcription. If a preselected keyword was found, it would be highlighted and the call itself would be prioritized.
 
-![interface](https://github.com/wazo-pbx/xivo-blog/raw/emergency/content/public/hackathon/1.png)
+![interface](https://github.com/wazo-pbx/xivo-blog/raw/emergency/content/public/hackathon/1.png){ width=80% }
 
 Source of this interface could be found here : https://github.com/wazo-pbx/frontend-hackathon-emergency 
 
