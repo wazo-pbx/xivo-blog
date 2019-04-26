@@ -35,7 +35,7 @@ The team gathered in an apartment that we rented on the famous place of the Oper
 
 The first morning was dedicated to get to know each other and also to share and explain the Wazo programmable platform, its ambition, its purpose and how it works.
 
-In the afternoon, it was agreed to build a mini emergency call center that could automatically prioritize calls - even before an operator picks up the call - depending on what the person would say in the IVR. Overall the user story was: when calling an emergency service, if the IVR hears "heart attack" or similar keywords, the priority given to a call will be high and therefore an operator will answer the call.
+In the afternoon, it was agreed to build a mini emergency call center that could automatically prioritize calls - even before an operator picks up the call - depending on what the person would say in the [IVR](https://en.wikipedia.org/wiki/Interactive_voice_response). Overall the user story was: when calling an emergency service, if the IVR hears "heart attack" or similar keywords, the priority given to a call will be high and therefore an operator will answer the call.
 
 All this, of course, in full web with a phone using webRTC.
 
