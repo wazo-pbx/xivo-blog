@@ -30,7 +30,7 @@ By solving this issue, our hidden objective was to demonstrate how easy it is to
 
 The team gathered in an apartment that we rented on the famous place of the Opera, in Paris downtown.
 
-![call-keep](https://user-images.githubusercontent.com/2076632/54532019-213ddf80-495d-11e9-85ee-7d2aa38a3fe9.gif)
+![opera](https://user-images.githubusercontent.com/2076632/54532019-213ddf80-495d-11e9-85ee-7d2aa38a3fe9.gif)
 
 
 The first morning was dedicated to get to know each other and also to share and explain the Wazo programmable platform, its ambition, its purpose and how it works.
