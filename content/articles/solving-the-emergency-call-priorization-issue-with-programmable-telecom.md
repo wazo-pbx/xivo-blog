@@ -1,9 +1,9 @@
-Title: Solving the emergency call priorization issue with programmable telecom
+Title: Solving the emergency call prioritization issue with programmable telecom
 Date: 2019-04-26 15:45:00
 Author: Jérome Pascal
 Category: Hackathon
 Tags: emergency, programmable telecom, hackathon, voip
-Slug: solving-the-emergency-call-priorization-issue-with-programmable-telecom
+Slug: solving-the-emergency-call-prioritization-issue-with-programmable-telecom
 Status: published
 
 
