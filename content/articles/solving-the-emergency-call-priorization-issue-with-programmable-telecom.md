@@ -63,7 +63,7 @@ We then regrouped to draw this wonderful Miró-style piece of art:
 
 
 ![postit](https://github.com/wazo-pbx/xivo-blog/raw/emergency/content/public/hackathon/3.png)
-![miro](https://github.com/wazo-pbx/xivo-blog/raw/emergency/content/public/hackathon/2.png)
+![miro](https://github.com/wazo-pbx/xivo-blog/raw/emergency/content/public/hackathon/4.png)
 
 
 So, the decision was made to build an Asterisk module where a given channel would get the voice feed in a websocket, for any incoming call within the Wazo voice programmable application.
