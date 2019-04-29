@@ -35,14 +35,14 @@ The team gathered in an apartment that we rented on the famous place of the Oper
 
 The first morning was dedicated to get to know each other and also to share and explain the Wazo programmable platform, its ambition, its purpose and how it works.
 
-In the afternoon, it was agreed to build a mini emergency call center that could automatically prioritize calls - even before an operator picks up the call - depending on what the person would say in the [IVR](https://en.wikipedia.org/wiki/Interactive_voice_response). Overall the user story was: when calling an emergency service, if the IVR hears "heart attack" or similar keywords, the priority given to a call will be high and therefore an operator will answer the call.
+In the afternoon, it was agreed to build a mini emergency call center that could automatically prioritize calls - even before an operator picks up the call - depending on what the person would say in the [IVR](https://en.wikipedia.org/wiki/Interactive_voice_response). Overall the user story was: when calling an emergency service, if the IVR hears "heart attack" or similar keywords, the priority given to the call would be higher and therefore an operator would answer the call.
 
-All this, of course, in full web with a phone using webRTC.
+All this, of course, in full web with a phone using WebRTC.
 
 
 ## HOW DID IT GO? 
 
-We formed several groups of people according to their favourite taste: C lovers, python devotees or JavaScript aficionados.
+We formed several groups of people according to their favourite taste: C lovers, Python devotees or JavaScript aficionados.
 
 Our initial plan was that, during a call, we would:
 
@@ -53,13 +53,13 @@ Our initial plan was that, during a call, we would:
 Unfortunately, it was not possible to do this, based directly on Asterisk. Still, there were existing alternative ways to proceed: 
 
 - through EAGI;
-- through a project that can be found on GitHub: https://github.com/CyCoreSystems/audiosocket;
-- through Freeswitch: https://github.com/Nexmo/wsbridge;
+- through a project that can be found on GitHub: <https://github.com/CyCoreSystems/audiosocket>;
+- through Freeswitch: <https://github.com/Nexmo/wsbridge>;
 
 We were not happy with these ways to proceed because it was using the dialplan, and because the offered solutions were not in line with the spirit of the Wazo programmable platform. We decided to write a module in Asterisk to retrieve the voice feed in a websocket.
-For those who can’t wait, this module can be found here: https://github.com/sboily/wazo-hackathon-asterisk-stream-module
+For those who can’t wait, this module can be found here: <https://github.com/sboily/wazo-hackathon-asterisk-stream-module>
 
-Meanwhile, the other team was looking for the right transcription engine. Google Speech appeared as a fine solution for our purpose. We had to detail here to the team some Wazo components and reveal how to insert the module. The impatient person can find the module source here: https://github.com/sboily/wazo-hackathon-wazo-ctid-module
+Meanwhile, the other team was looking for the right transcription engine. Google Speech appeared as a fine solution for our purpose. We had to detail here to the team some Wazo components and explain how to insert the module. The impatient person can find the module source here: <https://github.com/sboily/wazo-hackathon-wazo-ctid-module>
 
 We then regrouped to draw this wonderful Miró-style piece of art:
 
@@ -74,7 +74,7 @@ Then a JavaScript module would display the ongoing calls as well as the live tex
 
 ![interface](https://github.com/wazo-pbx/xivo-blog/raw/emergency/content/public/hackathon/1.png){ width=80% }
 
-Source of this interface could be found here : https://github.com/wazo-pbx/frontend-hackathon-emergency 
+Source of this interface could be found here : <https://github.com/wazo-pbx/frontend-hackathon-emergency >
 
 The next day, we started the dev phase, each group apart working on its own subject.
 
@@ -102,6 +102,6 @@ We would like to thank the participants, but also the part of the Wazo Quebec te
 
 
 
-In conclusion, we remind you that Wazo is still hiring developers in Canada or in France, or as a talented remote developer anywhere on the globe. So, if you have any interest in open-source programmable telecom, please let us know!
+In conclusion, we remind you that Wazo is still [hiring developers](http://wazo.io/#jobs) in Canada or in France, or as a talented remote developer anywhere on the globe. So, if you have any interest in open-source programmable telecom, please let us know!
 
 Wazo, unlock your communication.
