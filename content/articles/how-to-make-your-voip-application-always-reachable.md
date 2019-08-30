@@ -29,7 +29,7 @@ At Wazo we use React Native to build our mobile application, the community of de
 
 ## A Star is Born
 
-A thing I love with Wazo, it's the commitment to its values around FOSS. We use open source everyday and contribute to it. We've [open sourced](https://github.com/wazo-pbx/) everything since the beginning of our journey. When we saw the opportunity of developing a software that the community can benefit we've opened our IDE and start coding.
+A thing I love with Wazo, it's the commitment to its values around FOSS. We use open source everyday and contribute to it. We've [open sourced](https://github.com/wazo-platform/) everything since the beginning of our journey. When we saw the opportunity of developing a software that the community can benefit we've opened our IDE and start coding.
 
 Developing a react-native module in Java is very easy, even if Java was not preferred language, and after 3 days we ended with a working module that integrates all features of ConnectionService. 
 
@@ -38,7 +38,7 @@ Developing a react-native module in Java is very easy, even if Java was not pref
 ## Improve the Developer Experience
 
 So we now have 2 libraries dealing with the same goal: displaying incall system UI. But why should we install, setup and abstract 2 libraries with the same point ? 
-`react-native-callkit` uses the name of the iOS Framework, it would be misunderstood if we integrate the Android feature in it. So we've decided to fork it and create a new [`react-native-callkeep`](https://github.com/wazo-pbx/react-native-callkeep) repository with both Android and iOS implementation.
+`react-native-callkit` uses the name of the iOS Framework, it would be misunderstood if we integrate the Android feature in it. So we've decided to fork it and create a new [`react-native-callkeep`](https://github.com/wazo-platform/react-native-callkeep) repository with both Android and iOS implementation.
 
 With it, we can seamlessly notify both Android and iOS users of an incoming call, and even using Wazo to make calls from the native Phone application:
 
